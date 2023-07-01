@@ -1,10 +1,11 @@
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
+from bs4 import BeautifulStoneSoup
+import plotly.graph_objects as Dash
 
 def obterConteudo(url):
     options = webdriver.ChromeOptions()
@@ -16,7 +17,7 @@ def obterConteudo(url):
     navegador.get(url)
 
     time.sleep(5)
-    conteudo = navegador.find_element(By.XPATH, '/html/body').get_attribute('innerHTML')
+    conteudo = navegador.find_element(By.XPATH, '/html').get_attribute('innerHTML')
 
     # navegador.close()
     navegador.quit()
@@ -29,7 +30,7 @@ def salvarArquivo(conteudo, nome):
         arquivo.write(conteudo)
 
 
-#salvarArquivo(obterConteudo('https://steamdb.info/charts/'),'charts')
+salvarArquivo(obterConteudo('https://steamdb.info/charts/'),'charts')
 
 def lerArquivo(nome):
     with open(nome,'r',encoding='UTF-8') as arquivo:
