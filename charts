@@ -1,0 +1,8042 @@
+
+<a class="skip-main" href="#main" id="js-skip-main">Skip to content</a>
+<div class="header" role="banner">
+<div class="header-menu-button-container">
+<button type="button" class="header-menu-button" id="js-header-hamburger" accesskey="m" aria-label="Toggle menu"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-three-bars" aria-hidden="true"><path d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75Zm0 5A.75.75 0 0 1 1.75 7h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 7.75ZM1.75 12h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Z"></path></svg> <span>Menu</span></button>
+</div>
+<div class="header-navbar">
+<a href="/" class="header-brand" itemprop="url" aria-label="Homepage"><svg width="30" height="30" viewBox="0 0 128 128" class="octicon octicon-steamdb" aria-hidden="true"><path fill-rule="evenodd" d="M63.9 0C30.5 0 3.1 11.9.1 27.1l35.6 6.7c2.9-.9 6.2-1.3 9.6-1.3l16.7-10c-.2-2.5 1.3-5.1 4.7-7.2 4.8-3.1 12.3-4.8 19.9-4.8 5.2-.1 10.5.7 15 2.2 11.2 3.8 13.7 11.1 5.7 16.3-5.1 3.3-13.3 5-21.4 4.8l-22 7.9c-.2 1.6-1.3 3.1-3.4 4.5-5.9 3.8-17.4 4.7-25.6 1.9-3.6-1.2-6-3-7-4.8L2.5 38.4c2.3 3.6 6 6.9 10.8 9.8C5 53 0 59 0 65.5c0 6.4 4.8 12.3 12.9 17.1C4.8 87.3 0 93.2 0 99.6 0 115.3 28.6 128 64 128c35.3 0 64-12.7 64-28.4 0-6.4-4.8-12.3-12.9-17 8.1-4.8 12.9-10.7 12.9-17.1 0-6.5-5-12.6-13.4-17.4 8.3-5.1 13.3-11.4 13.3-18.2 0-16.5-28.7-29.9-64-29.9zm22.8 14.2c-5.2.1-10.2 1.2-13.4 3.3-5.5 3.6-3.8 8.5 3.8 11.1 7.6 2.6 18.1 1.8 23.6-1.8s3.8-8.5-3.8-11c-3.1-1-6.7-1.5-10.2-1.5zm.3 1.7c7.4 0 13.3 2.8 13.3 6.2 0 3.4-5.9 6.2-13.3 6.2s-13.3-2.8-13.3-6.2c0-3.4 5.9-6.2 13.3-6.2zM45.3 34.4c-1.6.1-3.1.2-4.6.4l9.1 1.7a10.8 5 0 1 1-8.1 9.3l-8.9-1.7c1 .9 2.4 1.7 4.3 2.4 6.4 2.2 15.4 1.5 20-1.5s3.2-7.2-3.2-9.3c-2.6-.9-5.7-1.3-8.6-1.3zM109 51v9.3c0 11-20.2 19.9-45 19.9-24.9 0-45-8.9-45-19.9v-9.2c11.5 5.3 27.4 8.6 44.9 8.6 17.6 0 33.6-3.3 45.2-8.7zm0 34.6v8.8c0 11-20.2 19.9-45 19.9-24.9 0-45-8.9-45-19.9v-8.8c11.6 5.1 27.4 8.2 45 8.2s33.5-3.1 45-8.2z"></path></svg> <span>SteamDB</span></a>
+<form class="header-search" id="js-header-form" method="get" action="/search/" itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SearchAction" role="search">
+<input type="hidden" name="a" value="app">
+<meta itemprop="target" content="https://steamdb.info/search/?a=app&amp;q={q}">
+<input type="text" accesskey="/" class="field" autocomplete="off" name="q" placeholder="Search…" itemprop="query-input" aria-label="Search">
+<button type="submit" class="submit" aria-label="Perform search" tabindex="-1"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-search" aria-hidden="true"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg></button>
+</form>
+<a href="/sales/">Sales</a>
+<a href="/charts/">Charts</a>
+<a href="/calculator/">Calculator</a>
+<a href="/patchnotes/">Patch notes</a>
+<a href="/upcoming/">Upcoming</a>
+<button type="button" class="btn btn-outline header-search-close">Close</button>
+</div>
+<button type="button" class="header-search-mobile" aria-label="Open search"><svg width="24" height="24" viewBox="0 0 16 16" class="octicon octicon-search" aria-hidden="true"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg></button>
+<div class="header-user hide-small">
+<a class="header-login" href="/login/?page=charts" rel="nofollow">
+<svg width="20" height="20" viewBox="0 0 16 16" class="octicon octicon-steam" aria-hidden="true"><path d="M8 0a8 8 0 00-8 7.47c.07.1.13.21.18.32l4.15 1.67a2.2 2.2 0 011.31-.36l1.97-2.8v-.04c0-1.65 1.37-3 3.05-3a3.03 3.03 0 013.05 3 3.03 3.03 0 01-3.12 3l-2.81 1.97c0 .3-.05.6-.17.9a2.25 2.25 0 01-4.23-.37L.4 10.56A8.01 8.01 0 108 0zm2.66 4.27c-1.12 0-2.03.9-2.03 2s.91 1.99 2.03 1.99c1.12 0 2.03-.9 2.03-2s-.9-2-2.03-2zm0 .5c.85 0 1.53.66 1.53 1.49s-.68 1.5-1.53 1.5c-.84 0-1.52-.67-1.52-1.5s.68-1.5 1.52-1.5zM5.57 9.6c-.22 0-.43.04-.62.11l1.02.42c.65.26.95.99.68 1.62-.27.63-1 .93-1.65.67l-1-.4a1.73 1.73 0 003.13-.08c.18-.42.18-.88.01-1.3A1.69 1.69 0 005.57 9.6z"></path></svg> <span>Sign in</span>
+</a>
+</div>
+</div>
+<div class="header-search-suggestions">
+<div class="container" id="js-search-tips">
+<p>Start typing to see game suggestions. This only suggests apps that have a store page.</p>
+<ul>
+<li class="hide-small">Use slash key (<kbd>/</kbd>) to focus search from anywhere.</li>
+<li class="hide-small">Use arrow keys (<kbd>↑</kbd> and <kbd>↓</kbd>) to navigate suggestions.</li>
+<li class="hide-small">Use escape (<kbd>Esc</kbd>) to close search.</li>
+<li>Enter an appid to be redirected to the app page.</li>
+<li>Enter a steamid (765...) to be redirected to calculator.</li>
+<li>Paste a profile link (/id/ or /profiles/) to be redirected to calculator.</li>
+<li>Paste any url that contains app/, sub/, bundle/, or depot/ to be redirected to the relevant page.</li>
+<li><a href="https://www.algolia.com/?utm_content=steamdb.info&amp;utm_campaign=poweredby">Search is powered by Algolia.</a></li>
+</ul>
+</div>
+<div class="container" id="js-search-suggestions"></div>
+<div class="container header-search-enter">
+Only apps with a store page are suggested.
+<span class="hide-small">
+<kbd>Enter</kbd> Submit to view all results.
+<kbd>Ctrl+Enter</kbd> View and filter in instant search.
+</span>
+</div>
+<div class="header-search-side-close">
+<div class="header-search-side-close-inner">Close ×</div>
+</div>
+</div>
+<div class="header-menu-container" hidden="">
+<div class="header-menu" tabindex="0">
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-info" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> About</li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/discord/">Discord</a></li>
+<li><a href="/faq/">FAQ &amp; help</a></li>
+<li><a href="/donate/">Donate &amp; contribute</a></li>
+<li><a href="/extension/">Browser extension</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-search" aria-hidden="true"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg> Tools</li>
+<li><a href="/sales/">Sales</a></li>
+<li><a href="/charts/">Charts</a></li>
+<li><a href="/calculator/">Calculator</a></li>
+<li><a href="/patchnotes/">Patch notes</a></li>
+<li><a href="/search/">Search</a></li>
+<li><a href="/instantsearch/">Instant search</a></li>
+<li><a href="/sales/history/">When is next sale?</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-sync" aria-hidden="true"><path d="M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z"></path></svg> Tracking</li>
+<li><a href="/apps/">Apps</a></li>
+<li><a href="/subs/">Packages</a></li>
+<li><a href="/bundles/">Bundles</a></li>
+<li><a href="/history/">History</a></li>
+<li><a href="/pricechanges/">Price changes</a></li>
+<li><a href="/upcoming/free/">Free promotions</a></li>
+<li><a href="/tech/">Technologies &amp; built with</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-database" aria-hidden="true"><path d="M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z"></path></svg> Database</li>
+<li><a href="/tags/">User tags</a></li>
+<li><a href="/upcoming/">Upcoming releases</a></li>
+<li><a href="/upcoming/mostfollowed/">Most followed upcoming</a></li>
+<li><a href="/calendar/">Release calendar</a></li>
+<li><a href="/stats/releases/">Game releases by year</a></li>
+<li><a href="/badges/">Profile badges</a></li>
+<li><a href="/developers/">Developers</a></li>
+<li><a href="/publishers/">Publishers</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-number" aria-hidden="true"><path d="M9 4.75A.75.75 0 0 1 9.75 4h4a.75.75 0 0 1 .53 1.28l-1.89 1.892c.312.076.604.18.867.319.742.391 1.244 1.063 1.244 2.005 0 .653-.231 1.208-.629 1.627-.386.408-.894.653-1.408.777-1.01.243-2.225.063-3.124-.527a.751.751 0 0 1 .822-1.254c.534.35 1.32.474 1.951.322.306-.073.53-.201.67-.349.129-.136.218-.32.218-.596 0-.308-.123-.509-.444-.678-.373-.197-.98-.318-1.806-.318a.75.75 0 0 1-.53-1.28l1.72-1.72H9.75A.75.75 0 0 1 9 4.75Zm-3.587 5.763c-.35-.05-.77.113-.983.572a.75.75 0 1 1-1.36-.632c.508-1.094 1.589-1.565 2.558-1.425 1 .145 1.872.945 1.872 2.222 0 1.433-1.088 2.192-1.79 2.681-.308.216-.571.397-.772.573H7a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75c0-.69.3-1.211.67-1.61.348-.372.8-.676 1.15-.92.8-.56 1.18-.904 1.18-1.474 0-.473-.267-.69-.587-.737ZM5.604.089A.75.75 0 0 1 6 .75v4.77h.711a.75.75 0 0 1 0 1.5H3.759a.75.75 0 0 1 0-1.5H4.5V2.15l-.334.223a.75.75 0 0 1-.832-1.248l1.5-1a.75.75 0 0 1 .77-.037Z"></path></svg> Rankings</li>
+<li><a href="/stats/gameratings/">Top rated games</a></li>
+<li><a href="/badge/13/">Top game owners</a></li>
+<li><a href="/stats/toplevels/">Top profile levels</a></li>
+<li><a href="/stats/globaltopsellers/">Top selling games</a></li>
+<li><a href="/topsellers/">Top selling games last week</a></li>
+<li><a href="/stats/mostfollowed/">Most followed games</a></li>
+<li><a href="/stats/mostwished/">Most wishlisted games</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-person" aria-hidden="true"><path d="M10.561 8.073a6.005 6.005 0 0 1 3.432 5.142.75.75 0 1 1-1.498.07 4.5 4.5 0 0 0-8.99 0 .75.75 0 0 1-1.498-.07 6.004 6.004 0 0 1 3.431-5.142 3.999 3.999 0 1 1 5.123 0ZM10.5 5a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"></path></svg> Account</li>
+<li><a href="/login/?page=charts" rel="nofollow">Sign in via Steam</a></li>
+<li><a href="/freepackages/">Free packages</a></li>
+<li>&nbsp;</li>
+<li><a href="https://steamstat.us/">Steam Status</a></li>
+<li><a href="https://steamapi.xpaw.me/">Steam Web API</a></li>
+</ul>
+<div class="header-disclaimer">SteamDB is a hobby project and is not affiliated with Valve or Steam.<br>All times on the site are UTC.</div>
+<div class="header-kbd hide-small"><kbd>M</kbd> toggle this menu <kbd>/</kbd> focus search</div>
+</div>
+</div>
+<script nonce="" integrity="sha512-otjBEs5t8BENvXjxGiNasPGyMSETcG6+drjAdYsaV1YXjdZtgxhnsVNAiU0qeZhTEfWwyPqyaMpCRK96bp9z5Q==" src="/static/js/global.js?v=a2d8c112ce6df011"></script>
+<div class="body-wrap">
+<style>
+.only-freepackages{
+display:none;
+margin-top:100px;
+}
+
+.page-freepackages .only-freepackages {
+display:block;
+}
+
+
+.global-announcement {
+	background: var(--bg-green);
+}
+
+.global-announcement a {
+	color: #8bc34a;
+}
+
+@media (max-width: 980px) {
+    .global-announcement {
+        display: none;
+    }
+}
+
+.header-navbar a[href="/sales/"]:after {
+	content: "NOW!";
+	margin-left: 2px;
+	font-size: 11px;
+	color: #cce5ff;
+	background-color: #203f60;
+	border-radius: 4px;
+	padding: 2px 3px;
+}
+
+</style>
+<div class="global-announcement" role="banner">
+<div class="container">
+<b><a href="/donate/">This site has been running ad-free for over ten years for gamers like you, show some love to the creator</a></b>
+<div class="only-freepackages">
+<h1>⚠️ Valve broke adding free packages (even the "Add to library" button on the store is affected), wait for them to fix it.</h1>
+<h2>You also need to update the SteamDB extension to 3.6.7.</h2>
+<p>This is broken because store.steampowered.com and checkout.steampowered.com must have same sessionid cookie.</p>
+</div>
+</div>
+</div>
+<div class="body-content" id="main">
+<style>
+#table-apps td.add {
+cursor: pointer;
+font-weight: bold;
+text-align: center;
+font-size: 140%;
+}
+#table-apps td.added {
+background-color: var(--link-color);
+color: #000;
+}
+#table-apps td.add:hover,
+#table-apps td.added:hover {
+background-color: var(--link-color-hover);
+color: #FFF;
+}
+.header-filters select {
+width: 200px;
+}
+.btn-compare:disabled {
+color: #2ea44f;
+border-color: #2ea44f;
+}
+.chart {
+text-align: center;
+font-size: 20px;
+height: 200px;
+margin-bottom: 15px;
+}
+.header-filters {
+align-items: center;
+}
+@media (max-width: 980px) {
+.header-wrapper > .container,
+.pre-table-title,
+.online-header {
+flex-direction: column;
+}
+.header-filters {
+flex-direction: column;
+margin-bottom: 20px;
+}
+.header-filters form,
+.header-filters select {
+width: 100%;
+}
+.btn-compare {
+margin-top: 10px;
+white-space: unset;
+}
+}
+</style>
+<div class="header-wrapper scope-graphs">
+<div class="container d-flex">
+<h1 class="header-title flex-grow">Steam Charts<span class="muted hide-small"> by SteamDB</span></h1>
+<div class="header-filters d-flex">
+<form method="get" id="js-tag-form">
+<select name="tagid" id="js-tag-select" is="searchable-select">
+<option value="0" selected="">- Filter by tag -</option>
+<option value="492">Indie</option>
+<option value="1003823">Profile Features Limited</option>
+<option value="19">Action</option>
+<option value="4182">Singleplayer</option>
+<option value="597">Casual</option>
+<option value="21">Adventure</option>
+<option value="599">Simulation</option>
+<option value="9">Strategy</option>
+<option value="122">RPG</option>
+<option value="3871">2D</option>
+<option value="4191">3D</option>
+<option value="4166">Atmospheric</option>
+<option value="1664">Puzzle</option>
+<option value="1684">Fantasy</option>
+<option value="3964">Pixel Graphics</option>
+<option value="1742">Story Rich</option>
+<option value="4305">Colorful</option>
+<option value="3834">Exploration</option>
+<option value="4726">Cute</option>
+<option value="113">Free to Play</option>
+<option value="3859">Multiplayer</option>
+<option value="493">Early Access</option>
+<option value="3839">First-Person</option>
+<option value="1773">Arcade</option>
+<option value="4085">Anime</option>
+<option value="1774">Shooter</option>
+<option value="4106">Action-Adventure</option>
+<option value="4136">Funny</option>
+<option value="3942">Sci-fi</option>
+<option value="1654">Relaxing</option>
+<option value="12095">Sexual Content</option>
+<option value="6650">Nudity</option>
+<option value="1625">Platformer</option>
+<option value="1667">Horror</option>
+<option value="5350">Family Friendly</option>
+<option value="4004">Retro</option>
+<option value="4667">Violent</option>
+<option value="7208">Female Protagonist</option>
+<option value="3993">Combat</option>
+<option value="1697">Third Person</option>
+<option value="7948">Soundtrack</option>
+<option value="4252">Stylized</option>
+<option value="1695">Open World</option>
+<option value="3799">Visual Novel</option>
+<option value="4791">Top-Down</option>
+<option value="7481">Controller</option>
+<option value="1662">Survival</option>
+<option value="4345">Gore</option>
+<option value="21978">VR</option>
+<option value="4175">Realistic</option>
+<option value="701">Sports</option>
+<option value="5379">2D Platformer</option>
+<option value="1719">Comedy</option>
+<option value="6426">Choices Matter</option>
+<option value="4026">Difficult</option>
+<option value="1775">PvP</option>
+<option value="1685">Co-op</option>
+<option value="3916">Old School</option>
+<option value="1663">FPS</option>
+<option value="4195">Cartoony</option>
+<option value="5716">Mystery</option>
+<option value="3968">Physics</option>
+<option value="4342">Dark</option>
+<option value="7250">Linear</option>
+
+<option value="6971">Multiple Endings</option>
+<option value="699">Racing</option>
+<option value="65443">Adult Content</option>
+<option value="3810">Sandbox</option>
+<option value="4094">Minimalist</option>
+<option value="4172">Medieval</option>
+<option value="4255">Shoot 'Em Up</option>
+<option value="4747">Character Customization</option>
+<option value="1756">Great Soundtrack</option>
+<option value="1698">Point &amp; Click</option>
+<option value="1721">Psychological Horror</option>
+<option value="6730">PvE</option>
+<option value="128">Massively Multiplayer</option>
+<option value="1755">Space</option>
+<option value="4231">Action RPG</option>
+<option value="3843">Online Co-Op</option>
+<option value="6815">Hand-drawn</option>
+<option value="4057">Magic</option>
+<option value="3798">Side Scroller</option>
+<option value="1643">Building</option>
+<option value="1708">Tactical</option>
+<option value="12472">Management</option>
+<option value="1716">Rogue-like</option>
+<option value="3959">Rogue-lite</option>
+<option value="17389">Tabletop</option>
+<option value="4295">Futuristic</option>
+<option value="5537">Puzzle-Platformer</option>
+<option value="7743">1980s</option>
+<option value="6129">Logic</option>
+<option value="5395">3D Platformer</option>
+<option value="1741">Turn-Based Strategy</option>
+<option value="4486">Choose Your Own Adventure</option>
+<option value="4562">Cartoon</option>
+<option value="5984">Drama</option>
+<option value="1702">Crafting</option>
+<option value="5125">Procedural Generation</option>
+<option value="4947">Romance</option>
+<option value="4325">Turn-Based Combat</option>
+<option value="7368">Local Multiplayer</option>
+<option value="11014">Interactive Fiction</option>
+<option value="10695">Party-Based RPG</option>
+<option value="1738">Hidden Object</option>
+<option value="5611">Mature</option>
+<option value="1677">Turn-Based</option>
+<option value="14139">Turn-Based Tactics</option>
+<option value="4604">Dark Fantasy</option>
+<option value="3978">Survival Horror</option>
+<option value="4434">JRPG</option>
+<option value="84">Design &amp; Illustration</option>
+<option value="1036">Education</option>
+<option value="1646">Hack and Slash</option>
+<option value="4885">Bullet Hell</option>
+<option value="42804">Action Roguelike</option>
+<option value="9204">Immersive Sim</option>
+<option value="8945">Resource Management</option>
+<option value="5608">Emotional</option>
+<option value="1720">Dungeon Crawler</option>
+<option value="1678">War</option>
+<option value="3835">Post-apocalyptic</option>
+<option value="1659">Zombies</option>
+<option value="9551">Dating Sim</option>
+<option value="3987">Historical</option>
+<option value="6691">1990's</option>
+<option value="30358">Nature</option>
+<option value="4711">Replay Value</option>
+<option value="7332">Base Building</option>
+<option value="5900">Walking Simulator</option>
+<option value="1710">Surreal</option>
+<option value="9130">Hentai</option>
+<option value="4637">Top-Down Shooter</option>
+<option value="5154">Score Attack</option>
+<option value="3841">Local Co-Op</option>
+<option value="1687">Stealth</option>
+<option value="31275">Text-Based</option>
+<option value="24904">NSFW</option>
+<option value="5851">Isometric</option>
+<option value="4975">2.5D</option>
+<option value="1666">Card Game</option>
+<option value="4168">Military</option>
+<option value="5094">Narration</option>
+<option value="3814">Third-Person Shooter</option>
+<option value="4115">Cyberpunk</option>
+<option value="87">Utilities</option>
+<option value="4145">Cinematic</option>
+<option value="1676">RTS</option>
+<option value="44868">LGBTQ+</option>
+<option value="8013">Software</option>
+<option value="1038">Web Publishing</option>
+<option value="379975">Clicker</option>
+<option value="1770">Board Game</option>
+<option value="10235">Life Sim</option>
+<option value="8369">Investigation</option>
+<option value="1673">Aliens</option>
+<option value="4400">Abstract</option>
+<option value="5752">Robots</option>
+
+<option value="5613">Detective</option>
+<option value="4234">Short</option>
+<option value="3877">Precision Platformer</option>
+<option value="1734">Fast-Paced</option>
+<option value="17305">Strategy RPG</option>
+<option value="15172">Conversation</option>
+<option value="1644">Driving</option>
+<option value="5547">Arena Shooter</option>
+<option value="5923">Dark Humor</option>
+<option value="10397">Memes</option>
+<option value="1645">Tower Defense</option>
+<option value="4695">Economy</option>
+<option value="3813">Real Time Tactics</option>
+<option value="16689">Time Management</option>
+<option value="5577">RPGMaker</option>
+<option value="15045">Flight</option>
+<option value="1759">Perma Death</option>
+<option value="9541">Demons</option>
+<option value="4328">City Builder</option>
+<option value="6869">Nonlinear</option>
+<option value="3854">Lore-Rich</option>
+<option value="4064">Thriller</option>
+<option value="5711">Team-Based</option>
+<option value="1621">Music</option>
+<option value="21725">Tactical RPG</option>
+<option value="5186">Psychological</option>
+<option value="12057">Tutorial</option>
+<option value="1628">Metroidvania</option>
+<option value="4840">4 Player Local</option>
+<option value="4684">Wargame</option>
+<option value="1714">Psychedelic</option>
+<option value="4158">Beat 'em up</option>
+<option value="7926">Artificial Intelligence</option>
+<option value="1693">Classic</option>
+<option value="5673">Modern</option>
+<option value="4700">Movie</option>
+<option value="10808">Supernatural</option>
+<option value="1751">Comic Book</option>
+<option value="5030">Dystopian </option>
+<option value="8666">Runner</option>
+<option value="5652">Collectathon</option>
+<option value="13782">Experimental</option>
+<option value="1743">Fighting</option>
+<option value="29482">Souls-like</option>
+<option value="4236">Loot</option>
+<option value="4736">2D Fighter</option>
+<option value="4598">Alternate History</option>
+<option value="8122">Level Editor</option>
+<option value="615955">Idler</option>
+<option value="3878">Competitive</option>
+<option value="5363">Destruction</option>
+<option value="1100687">Automobile Sim</option>
+<option value="32322">Deckbuilding</option>
+<option value="6276">Inventory Management</option>
+<option value="4758">Twin Stick Shooter</option>
+<option value="7569">Grid-Based Movement</option>
+<option value="6378">Crime</option>
+<option value="4474">CRPG</option>
+<option value="4036">Parkour</option>
+<option value="1669">Moddable</option>
+<option value="791774">Card Battler</option>
+<option value="16094">Mythology</option>
+<option value="1752">Rhythm</option>
+<option value="872">Animation &amp; Modeling</option>
+<option value="1665">Match 3</option>
+<option value="13906">Game Development</option>
+<option value="17894">Cats</option>
+<option value="16598">Space Sim</option>
+<option value="4150">World War II</option>
+<option value="19995">Dark Comedy</option>
+<option value="5411">Beautiful</option>
+<option value="4364">Grand Strategy</option>
+<option value="15277">Philosophical</option>
+<option value="6506">3D Fighter</option>
+<option value="1754">MMORPG</option>
+<option value="5794">Science</option>
+<option value="7432">Lovecraftian</option>
+<option value="6052">Noir</option>
+<option value="4608">Swordplay</option>
+<option value="5055">eSports</option>
+<option value="176981">Battle Royale</option>
+<option value="220585">Colony Sim</option>
+<option value="916648">Creature Collector</option>
+<option value="87918">Farming Sim</option>
+<option value="4046">Dragons</option>
+<option value="4835">6DOF</option>
+<option value="11104">Vehicular Combat</option>
+<option value="4155">Class-Based</option>
+<option value="3955">Character Action Game</option>
+<option value="255534">Automation</option>
+<option value="198631">Mystery Dungeon</option>
+<option value="5765">Gun Customization</option>
+<option value="1027">Audio Production</option>
+<option value="24003">Word Game</option>
+<option value="10816">Split Screen</option>
+<option value="29363">3D Vision</option>
+<option value="620519">Hero Shooter</option>
+<option value="4845">Capitalism</option>
+<option value="13190">America</option>
+<option value="13070">Solitaire</option>
+<option value="784">Video Production</option>
+<option value="1732">Voxel</option>
+<option value="5796">Bullet Time</option>
+<option value="22602">Agriculture</option>
+<option value="4777">Spectacle fighter</option>
+<option value="4102">Combat Racing</option>
+<option value="4878">Parody </option>
+<option value="1100689">Open World Survival Craft</option>
+<option value="4821">Mechs</option>
+<option value="1777">Steampunk</option>
+<option value="6625">Time Manipulation</option>
+<option value="353880">Looter Shooter</option>
+<option value="5372">Conspiracy</option>
+<option value="3920">Cooking</option>
+<option value="11123">Mouse only</option>
+<option value="1445">Software Training</option>
+<option value="6915">Martial Arts</option>
+<option value="3952">Gothic</option>
+<option value="4202">Trading</option>
+<option value="4508">Co-op Campaign</option>
+<option value="1651">Satire</option>
+<option value="13276">Tanks</option>
+<option value="5228">Blood</option>
+<option value="4853">Political</option>
+<option value="5300">God Game</option>
+<option value="1681">Pirates</option>
+<option value="1084988">Auto Battler</option>
+<option value="1730">Sokoban</option>
+<option value="1717">Hex Grid</option>
+<option value="21006">Underground</option>
+<option value="4559">Quick-Time Events</option>
+<option value="18594">FMV</option>
+<option value="1688">Ninja</option>
+<option value="10679">Time Travel</option>
+<option value="1670">4X</option>
+<option value="9564">Hunting</option>
+<option value="5981">Mining</option>
+<option value="1638">Dog</option>
+<option value="4242">Episodic</option>
+<option value="9271">Trading Card Game</option>
+<option value="31579">Otome</option>
+<option value="9157">Underwater</option>
+<option value="4161">Real-Time</option>
+<option value="9592">Dynamic Narration</option>
+<option value="1718">MOBA</option>
+<option value="5502">Hacking</option>
+<option value="4018">Vampire</option>
+<option value="1723">Action RTS</option>
+<option value="15564">Fishing</option>
+<option value="5160">Dinosaurs</option>
+<option value="1647">Western</option>
+<option value="1616">Trains</option>
+<option value="5432">Programming</option>
+<option value="4190">Addictive</option>
+<option value="26921">Political Sim</option>
+<option value="6910">Naval</option>
+<option value="7702">Narrative</option>
+<option value="180368">Faith</option>
+<option value="5708">Remake</option>
+<option value="4754">Politics</option>
+<option value="1671">Superhero</option>
+<option value="7178">Party Game</option>
+<option value="809">Photo Editing</option>
+<option value="14153">Dungeons &amp; Dragons</option>
+<option value="4376">Assassin</option>
+<option value="17770">Asynchronous Multiplayer</option>
+<option value="1674">Typing</option>
+<option value="10383">Transportation</option>
+<option value="8093">Minigames</option>
+<option value="3934">Immersive</option>
+<option value="7107">Real-Time with Pause</option>
+<option value="7782">Cult Classic</option>
+<option value="5179">Cold War</option>
+<option value="7108">Party</option>
+<option value="1091588">Roguelike Deckbuilder</option>
+<option value="769306">Escape Room</option>
+<option value="13382">Archery</option>
+<option value="97376">Cozy</option>
+<option value="1680">Heist</option>
+<option value="56690">On-Rails Shooter</option>
+<option value="4994">Naval Combat</option>
+<option value="9803">Snow</option>
+<option value="6310">Diplomacy</option>
+<option value="7478">Illuminati</option>
+<option value="10437">Trivia</option>
+<option value="5390">Time Attack</option>
+<option value="1254546">Football (Soccer)</option>
+<option value="51306">Foreign</option>
+<option value="8253">Music-Based Procedural Generation</option>
+<option value="13577">Sailing</option>
+<option value="552282">Wholesome</option>
+<option value="25085">Touch-Friendly</option>
+<option value="454187">Traditional Roguelike</option>
+<option value="7622">Offroad</option>
+<option value="776177">360 Video</option>
+<option value="16250">Gambling</option>
+<option value="1649">GameMaker</option>
+<option value="11333">Villain Protagonist</option>
+<option value="5230">Sequel</option>
+<option value="9994">Experience</option>
+<option value="6702">Mars</option>
+<option value="6041">Horses</option>
+<option value="5153">Kickstarter</option>
+<option value="14720">Nostalgia</option>
+<option value="7423">Sniper</option>
+<option value="4184">Chess</option>
+<option value="4137">Transhumanism</option>
+<option value="17015">Werewolves</option>
+<option value="12190">Boxing</option>
+<option value="71389">Spelling</option>
+<option value="92092">Jet</option>
+<option value="5348">Mod</option>
+<option value="15339">Documentary</option>
+<option value="7038">Golf</option>
+<option value="1100688">Medical Sim</option>
+<option value="1100686">Outbreak Sim</option>
+<option value="5382">World War I</option>
+<option value="198913">Motorbike</option>
+<option value="4520">Farming</option>
+<option value="6948">Rome</option>
+<option value="1736">LEGO</option>
+<option value="6621">Pinball</option>
+<option value="1733">Unforgiving</option>
+<option value="123332">Bikes</option>
+<option value="4291">Spaceships</option>
+<option value="745697">Social Deduction</option>
+<option value="61357">Electronic Music</option>
+<option value="3965">Epic</option>
+<option value="19780">Submarine</option>
+<option value="922563">Roguevania</option>
+<option value="1746">Basketball</option>
+<option value="29855">Ambient</option>
+<option value="856791">Asymmetric VR</option>
+<option value="150626">Gaming</option>
+<option value="8075">TrackIR</option>
+<option value="15954">Silent Protagonist</option>
+<option value="5310">Games Workshop</option>
+<option value="1254552">Football (American)</option>
+<option value="7113">Crowdfunded</option>
+<option value="22955">Mini Golf</option>
+<option value="12286">Warhammer 40K</option>
+<option value="3796">Based On A Novel</option>
+<option value="1753">Skateboarding</option>
+<option value="47827">Wrestling</option>
+<option value="11634">Vikings</option>
+<option value="189941">Instrumental Music</option>
+<option value="5727">Baseball</option>
+<option value="5914">Tennis</option>
+<option value="17927">Pool</option>
+<option value="19568">Cycling</option>
+<option value="96359">Skating</option>
+<option value="15868">Motocross</option>
+<option value="176733">Tile-Matching</option>
+<option value="17337">Lemmings</option>
+<option value="14906">Intentionally Awkward Controls</option>
+<option value="324176">Hockey</option>
+<option value="337964">Rock Music</option>
+<option value="35079">Job Simulator</option>
+<option value="33572">Mahjong</option>
+<option value="117648">8-bit Music</option>
+<option value="7328">Bowling</option>
+<option value="11095">Boss Rush</option>
+<option value="28444">Snowboarding</option>
+<option value="42089">Jump Scare</option>
+<option value="7309">Skiing</option>
+<option value="252854">BMX</option>
+<option value="143739">Electronic</option>
+<option value="129761">ATV</option>
+<option value="8461">Well-Written</option>
+<option value="27758">Voice Control</option>
+<option value="233824">Feature Film</option>
+<option value="603297">Hardware</option>
+<option value="5407">Benchmark</option>
+<option value="348922">Steam Machine</option>
+<option value="91114">Shop Keeper</option>
+<option value="323922">Musou</option>
+<option value="158638">Cricket</option>
+<option value="49213">Rugby</option>
+<option value="847164">Volleyball</option>
+<option value="42329">Coding</option>
+<option value="5941">Reboot</option>
+<option value="6214">Birds</option>
+<option value="363767">Snooker</option>
+<option value="30927">Fox</option>
+<option value="1220528">Hobby Sim</option>
+</select>
+</form>
+<span class="muted">&nbsp;or&nbsp;</span>
+<form method="get" id="js-category-form">
+<select name="category" id="js-category-select" is="searchable-select">
+<option value="0">- Filter by category -</option>
+<option value="1000">New all-time peaks</option>
+<option value="1">Multi-player</option>
+<option value="2">Single-player</option>
+<option value="6">Mods (require HL2)</option>
+<option value="7">Mods (require HL1)</option>
+<option value="8">Valve Anti-Cheat enabled</option>
+<option value="9">Co-op</option>
+<option value="10">Game demo</option>
+<option value="12">HDR available</option>
+<option value="13">Captions available</option>
+<option value="14">Commentary available</option>
+<option value="15">Stats</option>
+<option value="16">Includes Source SDK</option>
+<option value="17">Includes level editor</option>
+<option value="18">Partial Controller Support</option>
+<option value="19">Mods</option>
+<option value="20">MMO</option>
+<option value="21">Downloadable Content</option>
+<option value="22">Steam Achievements</option>
+<option value="23">Steam Cloud</option>
+<option value="24">Shared/Split Screen</option>
+<option value="25">Steam Leaderboards</option>
+<option value="27">Cross-Platform Multiplayer</option>
+<option value="28">Full controller support</option>
+<option value="29">Steam Trading Cards</option>
+<option value="30">Steam Workshop</option>
+<option value="32">Steam Turn Notifications</option>
+<option value="33">Native Steam Controller</option>
+<option value="35">In-App Purchases</option>
+<option value="36">Online PvP</option>
+<option value="37">Shared/Split Screen PvP</option>
+<option value="38">Online Co-op</option>
+<option value="39">Shared/Split Screen Co-op</option>
+<option value="40">SteamVR Collectibles</option>
+<option value="41">Remote Play on Phone</option>
+<option value="42">Remote Play on Tablet</option>
+<option value="43">Remote Play on TV</option>
+<option value="44">Remote Play Together</option>
+<option value="45">Cloud Gaming</option>
+<option value="46">Cloud Gaming (NVIDIA)</option>
+<option value="47">LAN PvP</option>
+<option value="48">LAN Co-op</option>
+<option value="49">PvP</option>
+<option value="50">Additional High-Quality Audio</option>
+<option value="51">Steam China Workshop</option>
+<option value="52">Tracked Controller Support</option>
+<option value="53">VR Supported</option>
+<option value="54">VR Only</option>
+<option value="401">VR Only</option>
+<option value="402">VR Supported</option>
+<option value="666">Early Access</option>
+<option value="776">Profile Features Limited</option>
+<option value="777">Steam is learning</option>
+<option value="888">Adult Only</option>
+<option value="998">macOS</option>
+<option value="999">Linux</option>
+</select>
+</form>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="muted-banner">
+<p>High-resolution Steam charts with concurrent player counts for all Steam games, including historic data.</p>
+<p>We update data and charts for the current top 800 games every 5 minutes, and the rest every 10 minutes.</p>
+</div>
+<div class="online-header d-flex">
+<h3 class="flex-grow" style="margin-bottom:0">
+<a href="/app/753/charts/" style="color:var(--contrast-color)">Concurrent Steam Users<svg width="28" height="28" viewBox="0 0 16 16" class="octicon octicon-arrow-right" aria-hidden="true"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06Z"></path></svg></a>
+</h3>
+<div class="d-flex" style="align-items:center">
+<span><b id="js-online">21,237,615</b> Online</span>
+<span class="muted">&nbsp;|&nbsp;</span>
+<span><b id="js-ingame">5,534,360</b> In-Game</span>
+</div>
+</div>
+<div class="chart" id="js-chart" data-highcharts-chart="0" style="overflow: hidden;"><div id="highcharts-wjvwkf9-0" dir="ltr" style="position: relative; overflow: hidden; width: 940px; height: 200px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; touch-action: manipulation; outline: none; font-size: 16px; font-family: inherit;" class="highcharts-container "><svg version="1.1" class="highcharts-root" style="font-family: inherit; font-size: 16px;" xmlns="http://www.w3.org/2000/svg" width="940" height="200" viewBox="0 0 940 200" role="img" aria-label=""><desc>Created with Highcharts 11.1.0</desc><defs><filter id="highcharts-drop-shadow-0"><feDropShadow dx="1" dy="1" flood-color="#000000" flood-opacity="0.75" stdDeviation="2.5"></feDropShadow></filter><clipPath id="highcharts-wjvwkf9-1-"><rect x="0" y="0" width="940" height="149" fill="none"></rect></clipPath><clipPath id="highcharts-wjvwkf9-171-"><rect x="0" y="0" width="940" height="149" fill="none"></rect></clipPath></defs><rect fill="transparent" class="highcharts-background" filter="none" x="0" y="0" width="940" height="200" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="0" y="5" width="940" height="149" filter="none"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1"><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 55.5 5 L 55.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 122.5 5 L 122.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 189.5 5 L 189.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 256.5 5 L 256.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 324.5 5 L 324.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 391.5 5 L 391.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 458.5 5 L 458.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 525.5 5 L 525.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 592.5 5 L 592.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 659.5 5 L 659.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 726.5 5 L 726.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 794.5 5 L 794.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 861.5 5 L 861.5 154" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 928.5 5 L 928.5 154" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"><path fill="none" stroke="rgba(180, 180, 180, 0.2)" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 0 154.5 L 940 154.5" opacity="1"></path><path fill="none" stroke="rgba(180, 180, 180, 0.2)" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 0 117.5 L 940 117.5" opacity="1"></path><path fill="none" stroke="rgba(180, 180, 180, 0.2)" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 0 80.5 L 940 80.5" opacity="1"></path><path fill="none" stroke="rgba(180, 180, 180, 0.2)" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 0 42.5 L 940 42.5" opacity="1"></path><path fill="none" stroke="rgba(180, 180, 180, 0.2)" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 0 4.5 L 940 4.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" stroke="#cccccc" stroke-width="0" x="0" y="5" width="940" height="149"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2"><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 55.5 154 L 55.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 122.5 154 L 122.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 189.5 154 L 189.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 256.5 154 L 256.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 324.5 154 L 324.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 391.5 154 L 391.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 458.5 154 L 458.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 525.5 154 L 525.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 592.5 154 L 592.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 659.5 154 L 659.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 726.5 154 L 726.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 794.5 154 L 794.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 861.5 154 L 861.5 164" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="var(--border-color)" stroke-width="1" d="M 928.5 154 L 928.5 164" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="var(--border-color)" stroke-width="1" data-z-index="7" d="M 0 154.5 L 940 154.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" stroke="#333333" stroke-width="0" data-z-index="7" d="M 940 5 L 940 154"></path></g><g class="highcharts-series-group" data-z-index="3" filter="none"><g class="highcharts-series highcharts-series-0 highcharts-line-series" data-z-index="0.1" opacity="1" transform="translate(0,5) scale(1 1)" clip-path="url(#highcharts-wjvwkf9-171-)"><path fill="none" d="M 0 71.73407575 L 5.5952380952381 70.881024675 L 11.190476190476 70.22959295 L 16.785714285714 69.592986725 L 22.380952380952 68.28359335 L 27.97619047619 65.814346725 L 33.571428571429 63.031518425 L 39.166666666667 60.351820475 L 44.761904761905 57.1846802 L 50.357142857143 52.5777492 L 55.952380952381 47.024321775000004 L 61.547619047619 42.816122225 L 67.142857142857 42.200461675 L 72.738095238095 42.905842574999994 L 78.333333333333 47.166177225 L 83.928571428571 52.018999199999996 L 89.52380952381 55.131229250000004 L 95.119047619048 56.980106925 L 100.71428571429 58.650583174999994 L 106.30952380952 62.24454885 L 111.90476190476 67.25443545 L 117.5 72.418056525 L 123.09523809524 75.57066185 L 128.69047619048 74.206995225 L 134.28571428571 72.245253775 L 139.88095238095 71.4092036 L 145.47619047619 70.686631825 L 151.07142857143 70.7087248 L 156.66666666667 69.90918335 L 162.2619047619 67.1404281 L 167.85714285714 63.846906024999996 L 173.45238095238 60.9673581 L 179.04761904762 56.533661949999995 L 184.64285714286 50.918310125000005 L 190.2380952381 44.9411714 L 195.83333333333 40.760063775000006 L 201.42857142857 40.307722125 L 207.02380952381 41.790100775 L 212.61904761905 46.48513547500001 L 218.21428571429 50.87130435 L 223.80952380952 52.868563675000004 L 229.40476190476 53.62261169999999 L 235 55.671827324999995 L 240.59523809524 60.922728875000004 L 246.19047619048 67.40570025 L 251.78571428571 76.88692785 L 257.38095238095 77.0581363 L 262.97619047619 76.126145025 L 268.57142857143 75.931901175 L 274.16666666667 76.07285145 L 279.7619047619 77.2459061 L 285.35714285714 77.957898875 L 290.95238095238 78.07044975 L 296.54761904762 76.618463375 L 302.14285714286 73.50278025 L 307.7380952381 69.954274475 L 313.33333333333 65.27282485 L 318.92857142857 57.97332230000001 L 324.52380952381 51.114133374999994 L 330.11904761905 46.436583825 L 335.71428571429 45.938935 L 341.30952380952 46.541710775 L 346.90476190476 51.197565925000006 L 352.5 54.913037375 L 358.09523809524 56.504662825 L 363.69047619048 56.90817345000001 L 369.28571428571 58.943044099999995 L 374.88095238095 64.188972775 L 380.47619047619 70.3151711 L 386.07142857143 74.98445115 L 391.66666666667 76.9935895 L 397.2619047619 75.89956445 L 402.85714285714 75.862005275 L 408.45238095238 76.11802825 L 414.04761904762 77.3903765 L 419.64285714286 78.27390925 L 425.2380952381 78.131148625 L 430.83333333333 75.73779515 L 436.42857142857 72.500863275 L 442.02380952381 69.616044475 L 447.61904761905 65.105114175 L 453.21428571429 58.739145050000005 L 458.80952380952 51.3373242 L 464.40476190476 46.31537605 L 470 45.491000025000005 L 475.59523809524 45.96521115 L 481.19047619048 50.480879650000006 L 486.78571428571 54.199074075 L 492.38095238095 55.937874275 L 497.97619047619 56.801068525000005 L 503.57142857143 59.20462105 L 509.16666666667 64.39990835 L 514.7619047619 70.15817725 L 520.35714285714 79.96364375 L 525.95238095238 78.35684265 L 531.54761904762 77.131194725 L 537.14285714286 76.763023175 L 542.7380952381 76.8578803 L 548.33333333333 77.752372 L 553.92857142857 78.373675925 L 559.52380952381 78.142465175 L 565.11904761905 76.5643652 L 570.71428571429 73.426652425 L 576.30952380952 70.2570611 L 581.90476190476 65.5711601 L 587.5 59.315816025000004 L 593.09523809524 52.871789525 L 598.69047619048 48.095095375 L 604.28571428571 47.467406800000006 L 609.88095238095 48.093553224999994 L 615.47619047619 52.12254675 L 621.07142857143 56.11269969999999 L 626.66666666667 57.978243025 L 632.2619047619 58.808325749999995 L 637.85714285714 61.02410475000001 L 643.45238095238 66.7161804 L 649.04761904762 71.95396995 L 654.64285714286 76.388861825 L 660.2380952381 78.17059265 L 665.83333333333 76.94347335 L 671.42857142857 76.501334475 L 677.02380952381 76.623678375 L 682.61904761905 77.24516855 L 688.21428571429 77.618417275 L 693.80952380952 77.10329075 L 699.40476190476 74.9088262 L 705 71.865720975 L 710.59523809524 68.938161525 L 716.19047619048 64.8696085 L 721.78571428571 58.64496215 L 727.38095238095 51.98203975 L 732.97619047619 47.288603075 L 738.57142857143 46.5719019 L 744.16666666667 47.263243274999994 L 749.7619047619 51.11323564999999 L 755.35714285714 55.0043781 L 760.95238095238 56.7768672 L 766.54761904762 57.172033825 L 772.14285714286 59.314452675 L 777.7380952381 64.076567175 L 783.33333333333 68.95550885 L 788.92857142857 73.49503225 L 794.52380952381 75.29031835 L 800.11904761905 73.92762395 L 805.71428571429 73.15717475 L 811.30952380952 73.13221725 L 816.90476190476 73.75448595 L 822.5 74.4826266 L 828.09523809524 74.1281556 L 833.69047619048 71.9937753 L 839.28571428571 69.018219225 L 844.88095238095 66.0588222 L 850.47619047619 61.840017575000005 L 856.07142857143 55.778995574999996 L 861.66666666667 48.675457824999995 L 867.2619047619 43.360519800000006 L 872.85714285714 41.792134625 L 878.45238095238 41.986914875 L 884.04761904762 45.3145207 L 889.64285714286 50.061295650000005 L 895.2380952381 53.3310932 L 900.83333333333 54.974529675 L 906.42857142857 56.840747225 L 912.02380952381 60.160184125 L 917.61904761905 65.186609725 L 923.21428571429 70.11764925 L 928.80952380952 72.79443425 L 934.40476190476 70.657897175 L 940 69.889884125" class="highcharts-graph" data-z-index="1" stroke="#0277BD" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" filter="none"></path><path fill="none" d="M 0 71.73407575 L 5.5952380952381 70.881024675 L 11.190476190476 70.22959295 L 16.785714285714 69.592986725 L 22.380952380952 68.28359335 L 27.97619047619 65.814346725 L 33.571428571429 63.031518425 L 39.166666666667 60.351820475 L 44.761904761905 57.1846802 L 50.357142857143 52.5777492 L 55.952380952381 47.024321775000004 L 61.547619047619 42.816122225 L 67.142857142857 42.200461675 L 72.738095238095 42.905842574999994 L 78.333333333333 47.166177225 L 83.928571428571 52.018999199999996 L 89.52380952381 55.131229250000004 L 95.119047619048 56.980106925 L 100.71428571429 58.650583174999994 L 106.30952380952 62.24454885 L 111.90476190476 67.25443545 L 117.5 72.418056525 L 123.09523809524 75.57066185 L 128.69047619048 74.206995225 L 134.28571428571 72.245253775 L 139.88095238095 71.4092036 L 145.47619047619 70.686631825 L 151.07142857143 70.7087248 L 156.66666666667 69.90918335 L 162.2619047619 67.1404281 L 167.85714285714 63.846906024999996 L 173.45238095238 60.9673581 L 179.04761904762 56.533661949999995 L 184.64285714286 50.918310125000005 L 190.2380952381 44.9411714 L 195.83333333333 40.760063775000006 L 201.42857142857 40.307722125 L 207.02380952381 41.790100775 L 212.61904761905 46.48513547500001 L 218.21428571429 50.87130435 L 223.80952380952 52.868563675000004 L 229.40476190476 53.62261169999999 L 235 55.671827324999995 L 240.59523809524 60.922728875000004 L 246.19047619048 67.40570025 L 251.78571428571 76.88692785 L 257.38095238095 77.0581363 L 262.97619047619 76.126145025 L 268.57142857143 75.931901175 L 274.16666666667 76.07285145 L 279.7619047619 77.2459061 L 285.35714285714 77.957898875 L 290.95238095238 78.07044975 L 296.54761904762 76.618463375 L 302.14285714286 73.50278025 L 307.7380952381 69.954274475 L 313.33333333333 65.27282485 L 318.92857142857 57.97332230000001 L 324.52380952381 51.114133374999994 L 330.11904761905 46.436583825 L 335.71428571429 45.938935 L 341.30952380952 46.541710775 L 346.90476190476 51.197565925000006 L 352.5 54.913037375 L 358.09523809524 56.504662825 L 363.69047619048 56.90817345000001 L 369.28571428571 58.943044099999995 L 374.88095238095 64.188972775 L 380.47619047619 70.3151711 L 386.07142857143 74.98445115 L 391.66666666667 76.9935895 L 397.2619047619 75.89956445 L 402.85714285714 75.862005275 L 408.45238095238 76.11802825 L 414.04761904762 77.3903765 L 419.64285714286 78.27390925 L 425.2380952381 78.131148625 L 430.83333333333 75.73779515 L 436.42857142857 72.500863275 L 442.02380952381 69.616044475 L 447.61904761905 65.105114175 L 453.21428571429 58.739145050000005 L 458.80952380952 51.3373242 L 464.40476190476 46.31537605 L 470 45.491000025000005 L 475.59523809524 45.96521115 L 481.19047619048 50.480879650000006 L 486.78571428571 54.199074075 L 492.38095238095 55.937874275 L 497.97619047619 56.801068525000005 L 503.57142857143 59.20462105 L 509.16666666667 64.39990835 L 514.7619047619 70.15817725 L 520.35714285714 79.96364375 L 525.95238095238 78.35684265 L 531.54761904762 77.131194725 L 537.14285714286 76.763023175 L 542.7380952381 76.8578803 L 548.33333333333 77.752372 L 553.92857142857 78.373675925 L 559.52380952381 78.142465175 L 565.11904761905 76.5643652 L 570.71428571429 73.426652425 L 576.30952380952 70.2570611 L 581.90476190476 65.5711601 L 587.5 59.315816025000004 L 593.09523809524 52.871789525 L 598.69047619048 48.095095375 L 604.28571428571 47.467406800000006 L 609.88095238095 48.093553224999994 L 615.47619047619 52.12254675 L 621.07142857143 56.11269969999999 L 626.66666666667 57.978243025 L 632.2619047619 58.808325749999995 L 637.85714285714 61.02410475000001 L 643.45238095238 66.7161804 L 649.04761904762 71.95396995 L 654.64285714286 76.388861825 L 660.2380952381 78.17059265 L 665.83333333333 76.94347335 L 671.42857142857 76.501334475 L 677.02380952381 76.623678375 L 682.61904761905 77.24516855 L 688.21428571429 77.618417275 L 693.80952380952 77.10329075 L 699.40476190476 74.9088262 L 705 71.865720975 L 710.59523809524 68.938161525 L 716.19047619048 64.8696085 L 721.78571428571 58.64496215 L 727.38095238095 51.98203975 L 732.97619047619 47.288603075 L 738.57142857143 46.5719019 L 744.16666666667 47.263243274999994 L 749.7619047619 51.11323564999999 L 755.35714285714 55.0043781 L 760.95238095238 56.7768672 L 766.54761904762 57.172033825 L 772.14285714286 59.314452675 L 777.7380952381 64.076567175 L 783.33333333333 68.95550885 L 788.92857142857 73.49503225 L 794.52380952381 75.29031835 L 800.11904761905 73.92762395 L 805.71428571429 73.15717475 L 811.30952380952 73.13221725 L 816.90476190476 73.75448595 L 822.5 74.4826266 L 828.09523809524 74.1281556 L 833.69047619048 71.9937753 L 839.28571428571 69.018219225 L 844.88095238095 66.0588222 L 850.47619047619 61.840017575000005 L 856.07142857143 55.778995574999996 L 861.66666666667 48.675457824999995 L 867.2619047619 43.360519800000006 L 872.85714285714 41.792134625 L 878.45238095238 41.986914875 L 884.04761904762 45.3145207 L 889.64285714286 50.061295650000005 L 895.2380952381 53.3310932 L 900.83333333333 54.974529675 L 906.42857142857 56.840747225 L 912.02380952381 60.160184125 L 917.61904761905 65.186609725 L 923.21428571429 70.11764925 L 928.80952380952 72.79443425 L 934.40476190476 70.657897175 L 940 69.889884125" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(0,5) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-line-series" data-z-index="0.1" opacity="1" transform="translate(0,5) scale(1 1)" clip-path="url(#highcharts-wjvwkf9-171-)"><path fill="none" d="M 0 128.300893925 L 5.5952380952381 128.147260025 L 11.190476190476 128.022427825 L 16.785714285714 127.554552925 L 22.380952380952 127.26725485 L 27.97619047619 126.47558805 L 33.571428571429 125.90672095 L 39.166666666667 125.8003573 L 44.761904761905 125.28375195 L 50.357142857143 123.445334075 L 55.952380952381 120.687522875 L 61.547619047619 118.5372778 L 67.142857142857 118.113205175 L 72.738095238095 118.399076575 L 78.333333333333 120.3332493 L 83.928571428571 122.17987707500001 L 89.52380952381 123.107640475 L 95.119047619048 123.49812477500001 L 100.71428571429 123.68429655 L 106.30952380952 124.9062977 L 111.90476190476 126.850550275 L 117.5 128.8156703 L 123.09523809524 130.247645975 L 128.69047619048 129.676357625 L 134.28571428571 128.826573375 L 139.88095238095 128.65308895 L 145.47619047619 128.398183475 L 151.07142857143 128.302249825 L 156.66666666667 128.3290065 L 162.2619047619 127.37088435 L 167.85714285714 126.628137975 L 173.45238095238 126.322196275 L 179.04761904762 125.289849775 L 184.64285714286 122.894555575 L 190.2380952381 119.76221425 L 195.83333333333 117.396544975 L 201.42857142857 117.08884135 L 207.02380952381 117.942354325 L 212.61904761905 120.1091682 L 218.21428571429 121.92480025 L 223.80952380952 122.49915055 L 229.40476190476 122.472498175 L 235 122.930524175 L 240.59523809524 124.838305275 L 246.19047619048 127.209953175 L 251.78571428571 131.52534705 L 257.38095238095 131.0599679 L 262.97619047619 130.467718975 L 268.57142857143 130.3211514 L 274.16666666667 130.396124475 L 279.7619047619 131.095001525 L 285.35714285714 131.382131975 L 290.95238095238 131.86444125 L 296.54761904762 131.845611375 L 302.14285714286 131.39176855 L 307.7380952381 130.6554031 L 313.33333333333 129.369432525 L 318.92857142857 126.2261695 L 324.52380952381 123.0809881 L 330.11904761905 120.7350576 L 335.71428571429 120.52479625000001 L 341.30952380952 121.0044943 L 346.90476190476 123.317059975 L 352.5 124.7166058 L 358.09523809524 124.694624575 L 363.69047619048 124.640269375 L 369.28571428571 125.062885525 L 374.88095238095 126.915886775 L 380.47619047619 129.1835364 L 386.07142857143 130.786839725 L 391.66666666667 131.369973575 L 397.2619047619 130.6943368 L 402.85714285714 130.696664925 L 408.45238095238 130.771768375 L 414.04761904762 131.46130685 L 419.64285714286 131.965839475 L 425.2380952381 132.0443364 L 430.83333333333 131.36336169999998 L 436.42857142857 130.44454575 L 442.02380952381 130.190221375 L 447.61904761905 129.06483555 L 453.21428571429 126.6820499 L 458.80952380952 123.089794 L 464.40476190476 120.877542575 L 470 120.51129685000001 L 475.59523809524 120.805255225 L 481.19047619048 122.922329175 L 486.78571428571 124.192621225 L 492.38095238095 124.478991775 L 497.97619047619 124.5712414 L 503.57142857143 125.1958643 L 509.16666666667 126.97403775000001 L 514.7619047619 129.01621685 L 520.35714285714 133.108974925 L 525.95238095238 131.747934425 L 531.54761904762 131.2330165 L 537.14285714286 130.982622 L 542.7380952381 131.03667175 L 548.33333333333 131.56100275 L 553.92857142857 131.71179075 L 559.52380952381 131.813427375 L 565.11904761905 131.8388505 L 570.71428571429 131.2182506 L 576.30952380952 130.719447025 L 581.90476190476 129.450637525 L 587.5 127.0288474 L 593.09523809524 123.99058467500001 L 598.69047619048 121.975382025 L 604.28571428571 121.672614025 L 609.88095238095 121.98049645 L 615.47619047619 123.712237775 L 621.07142857143 125.051926575 L 626.66666666667 125.334743475 L 632.2619047619 125.37236970000001 L 637.85714285714 126.0312477 L 643.45238095238 127.9073961 L 649.04761904762 129.896318875 L 654.64285714286 131.550308275 L 660.2380952381 132.09737295 L 665.83333333333 131.6133092 L 671.42857142857 131.304026175 L 677.02380952381 131.306544275 L 682.61904761905 131.751093225 L 688.21428571429 131.96757159999999 L 693.80952380952 131.981350375 L 699.40476190476 131.445009975 L 705 130.67579375 L 710.59523809524 130.247824775 L 716.19047619048 129.221103025 L 721.78571428571 126.96921015 L 727.38095238095 123.891603975 L 732.97619047619 121.74136634999999 L 738.57142857143 121.462896525 L 744.16666666667 121.7938814 L 749.7619047619 123.49752505000001 L 755.35714285714 124.98144585 L 760.95238095238 125.3762139 L 766.54761904762 125.38410345 L 772.14285714286 125.881811875 L 777.7380952381 127.3648275 L 783.33333333333 129.061427175 L 788.92857142857 130.652307625 L 794.52380952381 131.21407115 L 800.11904761905 130.557886325 L 805.71428571429 130.188388675 L 811.30952380952 130.204629675 L 816.90476190476 130.78608355 L 822.5 131.039089275 L 828.09523809524 130.928948475 L 833.69047619048 130.172028475 L 839.28571428571 129.4441374 L 844.88095238095 129.0207092 L 850.47619047619 127.838628875 L 856.07142857143 125.388770875 L 861.66666666667 122.14515635000001 L 867.2619047619 119.635940475 L 872.85714285714 118.94682292499999 L 878.45238095238 119.10559359999999 L 884.04761904762 120.6569816 L 889.64285714286 122.306981525 L 895.2380952381 123.46122865 L 900.83333333333 123.76244332499999 L 906.42857142857 124.07513845 L 912.02380952381 125.131656475 L 917.61904761905 127.042901825 L 923.21428571429 128.959652725 L 928.80952380952 129.90500185 L 934.40476190476 128.84278085 L 940 128.384509" class="highcharts-graph" data-z-index="1" stroke="#DD2C00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" filter="none"></path><path fill="none" d="M 0 128.300893925 L 5.5952380952381 128.147260025 L 11.190476190476 128.022427825 L 16.785714285714 127.554552925 L 22.380952380952 127.26725485 L 27.97619047619 126.47558805 L 33.571428571429 125.90672095 L 39.166666666667 125.8003573 L 44.761904761905 125.28375195 L 50.357142857143 123.445334075 L 55.952380952381 120.687522875 L 61.547619047619 118.5372778 L 67.142857142857 118.113205175 L 72.738095238095 118.399076575 L 78.333333333333 120.3332493 L 83.928571428571 122.17987707500001 L 89.52380952381 123.107640475 L 95.119047619048 123.49812477500001 L 100.71428571429 123.68429655 L 106.30952380952 124.9062977 L 111.90476190476 126.850550275 L 117.5 128.8156703 L 123.09523809524 130.247645975 L 128.69047619048 129.676357625 L 134.28571428571 128.826573375 L 139.88095238095 128.65308895 L 145.47619047619 128.398183475 L 151.07142857143 128.302249825 L 156.66666666667 128.3290065 L 162.2619047619 127.37088435 L 167.85714285714 126.628137975 L 173.45238095238 126.322196275 L 179.04761904762 125.289849775 L 184.64285714286 122.894555575 L 190.2380952381 119.76221425 L 195.83333333333 117.396544975 L 201.42857142857 117.08884135 L 207.02380952381 117.942354325 L 212.61904761905 120.1091682 L 218.21428571429 121.92480025 L 223.80952380952 122.49915055 L 229.40476190476 122.472498175 L 235 122.930524175 L 240.59523809524 124.838305275 L 246.19047619048 127.209953175 L 251.78571428571 131.52534705 L 257.38095238095 131.0599679 L 262.97619047619 130.467718975 L 268.57142857143 130.3211514 L 274.16666666667 130.396124475 L 279.7619047619 131.095001525 L 285.35714285714 131.382131975 L 290.95238095238 131.86444125 L 296.54761904762 131.845611375 L 302.14285714286 131.39176855 L 307.7380952381 130.6554031 L 313.33333333333 129.369432525 L 318.92857142857 126.2261695 L 324.52380952381 123.0809881 L 330.11904761905 120.7350576 L 335.71428571429 120.52479625000001 L 341.30952380952 121.0044943 L 346.90476190476 123.317059975 L 352.5 124.7166058 L 358.09523809524 124.694624575 L 363.69047619048 124.640269375 L 369.28571428571 125.062885525 L 374.88095238095 126.915886775 L 380.47619047619 129.1835364 L 386.07142857143 130.786839725 L 391.66666666667 131.369973575 L 397.2619047619 130.6943368 L 402.85714285714 130.696664925 L 408.45238095238 130.771768375 L 414.04761904762 131.46130685 L 419.64285714286 131.965839475 L 425.2380952381 132.0443364 L 430.83333333333 131.36336169999998 L 436.42857142857 130.44454575 L 442.02380952381 130.190221375 L 447.61904761905 129.06483555 L 453.21428571429 126.6820499 L 458.80952380952 123.089794 L 464.40476190476 120.877542575 L 470 120.51129685000001 L 475.59523809524 120.805255225 L 481.19047619048 122.922329175 L 486.78571428571 124.192621225 L 492.38095238095 124.478991775 L 497.97619047619 124.5712414 L 503.57142857143 125.1958643 L 509.16666666667 126.97403775000001 L 514.7619047619 129.01621685 L 520.35714285714 133.108974925 L 525.95238095238 131.747934425 L 531.54761904762 131.2330165 L 537.14285714286 130.982622 L 542.7380952381 131.03667175 L 548.33333333333 131.56100275 L 553.92857142857 131.71179075 L 559.52380952381 131.813427375 L 565.11904761905 131.8388505 L 570.71428571429 131.2182506 L 576.30952380952 130.719447025 L 581.90476190476 129.450637525 L 587.5 127.0288474 L 593.09523809524 123.99058467500001 L 598.69047619048 121.975382025 L 604.28571428571 121.672614025 L 609.88095238095 121.98049645 L 615.47619047619 123.712237775 L 621.07142857143 125.051926575 L 626.66666666667 125.334743475 L 632.2619047619 125.37236970000001 L 637.85714285714 126.0312477 L 643.45238095238 127.9073961 L 649.04761904762 129.896318875 L 654.64285714286 131.550308275 L 660.2380952381 132.09737295 L 665.83333333333 131.6133092 L 671.42857142857 131.304026175 L 677.02380952381 131.306544275 L 682.61904761905 131.751093225 L 688.21428571429 131.96757159999999 L 693.80952380952 131.981350375 L 699.40476190476 131.445009975 L 705 130.67579375 L 710.59523809524 130.247824775 L 716.19047619048 129.221103025 L 721.78571428571 126.96921015 L 727.38095238095 123.891603975 L 732.97619047619 121.74136634999999 L 738.57142857143 121.462896525 L 744.16666666667 121.7938814 L 749.7619047619 123.49752505000001 L 755.35714285714 124.98144585 L 760.95238095238 125.3762139 L 766.54761904762 125.38410345 L 772.14285714286 125.881811875 L 777.7380952381 127.3648275 L 783.33333333333 129.061427175 L 788.92857142857 130.652307625 L 794.52380952381 131.21407115 L 800.11904761905 130.557886325 L 805.71428571429 130.188388675 L 811.30952380952 130.204629675 L 816.90476190476 130.78608355 L 822.5 131.039089275 L 828.09523809524 130.928948475 L 833.69047619048 130.172028475 L 839.28571428571 129.4441374 L 844.88095238095 129.0207092 L 850.47619047619 127.838628875 L 856.07142857143 125.388770875 L 861.66666666667 122.14515635000001 L 867.2619047619 119.635940475 L 872.85714285714 118.94682292499999 L 878.45238095238 119.10559359999999 L 884.04761904762 120.6569816 L 889.64285714286 122.306981525 L 895.2380952381 123.46122865 L 900.83333333333 123.76244332499999 L 906.42857142857 124.07513845 L 912.02380952381 125.131656475 L 917.61904761905 127.042901825 L 923.21428571429 128.959652725 L 928.80952380952 129.90500185 L 934.40476190476 128.84278085 L 940 128.384509" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22"></path></g><g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(0,5) scale(1 1)" clip-path="none"></g></g><text x="470" text-anchor="middle" class="highcharts-title" data-z-index="4" style="font-size: 1em; color: var(--body-color); font-weight: bold; fill: var(--body-color);" y="17"></text><text x="470" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="19"></text><text x="0" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="197"></text><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7"><text x="55.952380952381" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">12:00</text><text x="123.09523809524" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">25 Jun</text><text x="190.2380952381" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">12:00</text><text x="257.38095238095" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">26 Jun</text><text x="324.52380952381" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">12:00</text><text x="391.66666666667" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">27 Jun</text><text x="458.80952380952" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">12:00</text><text x="525.95238095238" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">28 Jun</text><text x="593.09523809524" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">12:00</text><text x="660.2380952381" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">29 Jun</text><text x="727.38095238095" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">12:00</text><text x="794.52380952381" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">30 Jun</text><text x="861.66666666667" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">12:00</text><text x="926.5124998092651" text-anchor="middle" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="181" opacity="1">1 Jul</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="940" text-anchor="end" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="152" opacity="1">0</text><text x="940" text-anchor="end" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="115" opacity="1">10M</text><text x="940" text-anchor="end" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="78" opacity="1">20M</text><text x="940" text-anchor="end" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" y="40" opacity="1">30M</text><text x="0" text-anchor="end" transform="translate(0,0)" style="color: var(--muted-color); cursor: default; font-size: 0.8em; fill: var(--muted-color);" visibility="hidden">40M</text></g><text x="940" class="highcharts-credits" text-anchor="end" data-z-index="8" y="197" style="cursor: pointer; color: var(--muted-color); font-size: 12px; fill: var(--muted-color);">data by SteamDB.info (powered by highcharts.com)</text></svg></div></div>
+<div class="table-responsive">
+<div class="pre-table-title d-flex">
+<span class="flex-grow">Most played games</span>
+<button class="btn btn-sm btn-primary btn-compare" disabled="">Compare — Click the plus button to add to comparison</button>
+</div>
+<div id="table-apps_wrapper" class="dataTables_wrapper"><div class="dataTable_display"><div class="dataTables_length" id="table-apps_length"><label>Show <select name="table-apps_length" aria-controls="table-apps" class=""><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="250">250</option><option value="1000">1K</option><option value="5000">5K</option><option value="-1">All (slow)</option></select> entries</label></div><div id="table-apps_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="table-apps"></label></div></div><div class="dataTable_table_wrap"><table class="table-products table-hover text-left dataTable" id="table-apps" data-order="[[6,&quot;asc&quot;],[3,&quot;desc&quot;]]" data-increased="false" aria-describedby="table-apps_info">
+<thead>
+<tr><th style="width:80px" data-orderable="false" class="sorting_disabled" rowspan="1" colspan="1" aria-label="#">#</th><th style="width:119px" data-orderable="false" class="sorting_disabled" rowspan="1" colspan="1" aria-label=" "> </th><th class="sorting" tabindex="0" aria-controls="table-apps" rowspan="1" colspan="1" aria-label="Name: activate to sort column descending">Name</th><th style="width:120px" class="sorting sorting_desc" tabindex="0" aria-controls="table-apps" rowspan="1" colspan="1" aria-label="Current: activate to sort column descending">Current</th><th style="width:120px" class="sorting" tabindex="0" aria-controls="table-apps" rowspan="1" colspan="1" aria-label="24h Peak: activate to sort column descending">24h Peak</th><th style="width:120px" class="sorting" tabindex="0" aria-controls="table-apps" rowspan="1" colspan="1" aria-label="All-Time Peak: activate to sort column descending">All-Time Peak</th><th style="width:30px" class="sorting sorting_asc" tabindex="0" aria-controls="table-apps" rowspan="1" colspan="1" aria-sort="ascending" aria-label=" : activate to sort column descending"> </th></tr>
+</thead>
+
+<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="app" data-appid="730" data-cache="1688168747">
+<td>1.</td>
+<td class="applogo text-left"><a href="/app/730/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_sm_120.jpg?t=1688168747" alt=""></a></td>
+<td><a href="/app/730/charts/">Counter-Strike: Global Offensive</a></td>
+<td data-sort="815514">815,514</td>
+<td data-sort="1218748">1,218,748</td>
+<td data-sort="1818773">1,818,773</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="570" data-cache="1688162383">
+<td>2.</td>
+<td class="applogo text-left"><a href="/app/570/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/capsule_sm_120.jpg?t=1688162383" alt=""></a></td>
+<td><a href="/app/570/charts/">Dota 2</a></td>
+<td data-sort="350038">350,038</td>
+<td data-sort="646762">646,762</td>
+<td data-sort="1295114">1,295,114</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1172470" data-cache="1688148788">
+<td>3.</td>
+<td class="applogo text-left"><a href="/app/1172470/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/capsule_sm_120.jpg?t=1688148788" alt=""></a></td>
+<td><a href="/app/1172470/charts/">Apex Legends</a></td>
+<td data-sort="134820">134,820</td>
+<td data-sort="334490">334,490</td>
+<td data-sort="624473">624,473</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="440" data-cache="1686901322">
+<td>4.</td>
+<td class="applogo text-left"><a href="/app/440/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/440/capsule_sm_120.jpg?t=1686901322" alt=""></a></td>
+<td><a href="/app/440/charts/">Team Fortress 2</a></td>
+<td data-sort="117435">117,435</td>
+<td data-sort="120989">120,989</td>
+<td data-sort="167951">167,951</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="218" data-cache="1685490096">
+<td>5.</td>
+<td class="applogo text-left"><a href="/app/218/charts/"><img src="/static/img/applogo.svg" alt=""></a></td>
+<td><a href="/app/218/charts/">Source SDK Base 2007</a></td>
+<td data-sort="113935">113,935</td>
+<td data-sort="174471">174,471</td>
+<td data-sort="213168">213,168</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="578080" data-cache="1687910529">
+<td>6.</td>
+<td class="applogo text-left"><a href="/app/578080/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/578080/capsule_sm_120.jpg?t=1687910529" alt=""></a></td>
+<td><a href="/app/578080/charts/">PUBG: BATTLEGROUNDS</a></td>
+<td data-sort="103271">103,271</td>
+<td data-sort="327928">327,928</td>
+<td data-sort="3257248">3,257,248</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="271590" data-cache="1688118485">
+<td>7.</td>
+<td class="applogo text-left"><a href="/app/271590/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_sm_120.jpg?t=1688118485" alt=""></a></td>
+<td><a href="/app/271590/charts/">Grand Theft Auto V</a></td>
+<td data-sort="90864">90,864</td>
+<td data-sort="171622">171,622</td>
+<td data-sort="364548">364,548</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="252490" data-cache="1688037991">
+<td>8.</td>
+<td class="applogo text-left"><a href="/app/252490/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/capsule_sm_120.jpg?t=1688037991" alt=""></a></td>
+<td><a href="/app/252490/charts/">Rust</a></td>
+<td data-sort="75431">75,431</td>
+<td data-sort="115884">115,884</td>
+<td data-sort="245243">245,243</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="671860" data-cache="1688114368">
+<td>9.</td>
+<td class="applogo text-left"><a href="/app/671860/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/671860/capsule_sm_120.jpg?t=1688114368" alt=""></a></td>
+<td><a href="/app/671860/charts/">BattleBit Remastered</a></td>
+<td data-sort="67840">67,840</td>
+<td data-sort="67840">67,840</td>
+<td data-sort="87323">87,323</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1938090" data-cache="1688144419">
+<td>10.</td>
+<td class="applogo text-left"><a href="/app/1938090/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/capsule_sm_120.jpg?t=1688144419" alt=""></a></td>
+<td><a href="/app/1938090/charts/">Call of Duty®: Modern Warfare® II | Warzone™</a></td>
+<td data-sort="66768">66,768</td>
+<td data-sort="75072">75,072</td>
+<td data-sort="491670">491,670</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="304930" data-cache="1688148669">
+<td>11.</td>
+<td class="applogo text-left"><a href="/app/304930/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/304930/capsule_sm_120.jpg?t=1688148669" alt=""></a></td>
+<td><a href="/app/304930/charts/">Unturned</a></td>
+<td data-sort="63434">63,434</td>
+<td data-sort="69628">69,628</td>
+<td data-sort="112703">112,703</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="431960" data-cache="1688096388">
+<td>12.</td>
+<td class="applogo text-left"><a href="/app/431960/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/431960/capsule_sm_120.jpg?t=1688096388" alt=""></a></td>
+<td><a href="/app/431960/charts/">Wallpaper Engine</a></td>
+<td data-sort="63341">63,341</td>
+<td data-sort="110959">110,959</td>
+<td data-sort="147019">147,019</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1085660" data-cache="1688142645">
+<td>13.</td>
+<td class="applogo text-left"><a href="/app/1085660/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/capsule_sm_120.jpg?t=1688142645" alt=""></a></td>
+<td><a href="/app/1085660/charts/">Destiny 2</a></td>
+<td data-sort="59803">59,803</td>
+<td data-sort="59803">59,803</td>
+<td data-sort="316750">316,750</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="251570" data-cache="1688063884">
+<td>14.</td>
+<td class="applogo text-left"><a href="/app/251570/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/251570/capsule_sm_120.jpg?t=1688063884" alt=""></a></td>
+<td><a href="/app/251570/charts/">7 Days to Die</a></td>
+<td data-sort="52604">52,604</td>
+<td data-sort="62966">62,966</td>
+<td data-sort="74056">74,056</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="381210" data-cache="1688081889">
+<td>15.</td>
+<td class="applogo text-left"><a href="/app/381210/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/381210/capsule_sm_120.jpg?t=1688081889" alt=""></a></td>
+<td><a href="/app/381210/charts/">Dead by Daylight</a></td>
+<td data-sort="46762">46,762</td>
+<td data-sort="61921">61,921</td>
+<td data-sort="105093">105,093</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="359550" data-cache="1688083443">
+<td>16.</td>
+<td class="applogo text-left"><a href="/app/359550/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/359550/capsule_sm_120.jpg?t=1688083443" alt=""></a></td>
+<td><a href="/app/359550/charts/">Tom Clancy's Rainbow Six Siege</a></td>
+<td data-sort="45825">45,825</td>
+<td data-sort="62123">62,123</td>
+<td data-sort="201053">201,053</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="236390" data-cache="1688160385">
+<td>17.</td>
+<td class="applogo text-left"><a href="/app/236390/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/capsule_sm_120.jpg?t=1688160385" alt=""></a></td>
+<td><a href="/app/236390/charts/">War Thunder</a></td>
+<td data-sort="43972">43,972</td>
+<td data-sort="74508">74,508</td>
+<td data-sort="113250">113,250</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="346110" data-cache="1688085042">
+<td>18.</td>
+<td class="applogo text-left"><a href="/app/346110/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/capsule_sm_120.jpg?t=1688085042" alt=""></a></td>
+<td><a href="/app/346110/charts/">ARK: Survival Evolved</a></td>
+<td data-sort="41509">41,509</td>
+<td data-sort="57251">57,251</td>
+<td data-sort="248405">248,405</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="550" data-cache="1687375336">
+<td>19.</td>
+<td class="applogo text-left"><a href="/app/550/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/550/capsule_sm_120.jpg?t=1687375336" alt=""></a></td>
+<td><a href="/app/550/charts/">Left 4 Dead 2</a></td>
+<td data-sort="40457">40,457</td>
+<td data-sort="53147">53,147</td>
+<td data-sort="162399">162,399</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="230410" data-cache="1687535294">
+<td>20.</td>
+<td class="applogo text-left"><a href="/app/230410/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/230410/capsule_sm_120.jpg?t=1687535294" alt=""></a></td>
+<td><a href="/app/230410/charts/">Warframe</a></td>
+<td data-sort="39471">39,471</td>
+<td data-sort="57225">57,225</td>
+<td data-sort="189837">189,837</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="289070" data-cache="1688083092">
+<td>21.</td>
+<td class="applogo text-left"><a href="/app/289070/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/289070/capsule_sm_120.jpg?t=1688083092" alt=""></a></td>
+<td><a href="/app/289070/charts/">Sid Meier's Civilization VI</a></td>
+<td data-sort="37177">37,177</td>
+<td data-sort="50902">50,902</td>
+<td data-sort="162657">162,657</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1811260" data-cache="1688145231">
+<td>22.</td>
+<td class="applogo text-left"><a href="/app/1811260/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1811260/capsule_sm_120.jpg?t=1688145231" alt=""></a></td>
+<td><a href="/app/1811260/charts/">EA SPORTS™ FIFA 23</a></td>
+<td data-sort="36521">36,521</td>
+<td data-sort="62233">62,233</td>
+<td data-sort="110878">110,878</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="413150" data-cache="1688174849">
+<td>23.</td>
+<td class="applogo text-left"><a href="/app/413150/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/413150/capsule_sm_120.jpg?t=1688174849" alt=""></a></td>
+<td><a href="/app/413150/charts/">Stardew Valley</a></td>
+<td data-sort="33947">33,947</td>
+<td data-sort="39423">39,423</td>
+<td data-sort="94879">94,879</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1904540" data-cache="1688047171">
+<td>24.</td>
+<td class="applogo text-left"><a href="/app/1904540/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1904540/capsule_sm_120.jpg?t=1688047171" alt=""></a></td>
+<td><a href="/app/1904540/charts/">Football Manager 2023</a></td>
+<td data-sort="32404">32,404</td>
+<td data-sort="66446">66,446</td>
+<td data-sort="83715">83,715</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="105600" data-cache="1688056021">
+<td>25.</td>
+<td class="applogo text-left"><a href="/app/105600/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/105600/capsule_sm_120.jpg?t=1688056021" alt=""></a></td>
+<td><a href="/app/105600/charts/">Terraria</a></td>
+<td data-sort="32011">32,011</td>
+<td data-sort="47375">47,375</td>
+<td data-sort="489886">489,886</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="438100" data-cache="1688137898">
+<td>26.</td>
+<td class="applogo text-left"><a href="/app/438100/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/438100/capsule_sm_120.jpg?t=1688137898" alt=""></a></td>
+<td><a href="/app/438100/charts/">VRChat</a></td>
+<td data-sort="30832">30,832</td>
+<td data-sort="30832">30,832</td>
+<td data-sort="46814">46,814</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1623660" data-cache="1688021434">
+<td>27.</td>
+<td class="applogo text-left"><a href="/app/1623660/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1623660/capsule_sm_120.jpg?t=1688021434" alt=""></a></td>
+<td><a href="/app/1623660/charts/">MIR4</a></td>
+<td data-sort="29665">29,665</td>
+<td data-sort="31083">31,083</td>
+<td data-sort="97173">97,173</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1364780" data-cache="1688080150">
+<td>28.</td>
+<td class="applogo text-left"><a href="/app/1364780/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/capsule_sm_120.jpg?t=1688080150" alt=""></a></td>
+<td><a href="/app/1364780/charts/">Street Fighter™ 6</a></td>
+<td data-sort="29541">29,541</td>
+<td data-sort="37501">37,501</td>
+<td data-sort="70573">70,573</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1245620" data-cache="1688108253">
+<td>29.</td>
+<td class="applogo text-left"><a href="/app/1245620/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/capsule_sm_120.jpg?t=1688108253" alt=""></a></td>
+<td><a href="/app/1245620/charts/">ELDEN RING</a></td>
+<td data-sort="29217">29,217</td>
+<td data-sort="34701">34,701</td>
+<td data-sort="953426">953,426</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1222670" data-cache="1688143726">
+<td>30.</td>
+<td class="applogo text-left"><a href="/app/1222670/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/capsule_sm_120.jpg?t=1688143726" alt=""></a></td>
+<td><a href="/app/1222670/charts/">The Sims™ 4</a></td>
+<td data-sort="28282">28,282</td>
+<td data-sort="36344">36,344</td>
+<td data-sort="96328">96,328</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1919590" data-cache="1688160727">
+<td>31.</td>
+<td class="applogo text-left"><a href="/app/1919590/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1919590/capsule_sm_120.jpg?t=1688160727" alt=""></a></td>
+<td><a href="/app/1919590/charts/">NBA 2K23</a></td>
+<td data-sort="27408">27,408</td>
+<td data-sort="42401">42,401</td>
+<td data-sort="59006">59,006</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="221100" data-cache="1687262459">
+<td>32.</td>
+<td class="applogo text-left"><a href="/app/221100/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/221100/capsule_sm_120.jpg?t=1687262459" alt=""></a></td>
+<td><a href="/app/221100/charts/">DayZ</a></td>
+<td data-sort="26825">26,825</td>
+<td data-sort="47262">47,262</td>
+<td data-sort="63046">63,046</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="108600" data-cache="1688176283">
+<td>33.</td>
+<td class="applogo text-left"><a href="/app/108600/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/108600/capsule_sm_120.jpg?t=1688176283" alt=""></a></td>
+<td><a href="/app/108600/charts/">Project Zomboid</a></td>
+<td data-sort="26578">26,578</td>
+<td data-sort="28279">28,279</td>
+<td data-sort="65505">65,505</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="252950" data-cache="1688175571">
+<td>34.</td>
+<td class="applogo text-left"><a href="/app/252950/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/252950/capsule_sm_120.jpg?t=1688175571" alt=""></a></td>
+<td><a href="/app/252950/charts/">Rocket League</a></td>
+<td data-sort="26511">26,511</td>
+<td data-sort="39083">39,083</td>
+<td data-sort="147632">147,632</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="39210" data-cache="1685740196">
+<td>35.</td>
+<td class="applogo text-left"><a href="/app/39210/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/39210/capsule_sm_120.jpg?t=1685740196" alt=""></a></td>
+<td><a href="/app/39210/charts/">FINAL FANTASY XIV Online</a></td>
+<td data-sort="26366">26,366</td>
+<td data-sort="26710">26,710</td>
+<td data-sort="95150">95,150</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1281930" data-cache="1688072096">
+<td>36.</td>
+<td class="applogo text-left"><a href="/app/1281930/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/capsule_sm_120.jpg?t=1688072096" alt=""></a></td>
+<td><a href="/app/1281930/charts/">tModLoader</a></td>
+<td data-sort="26347">26,347</td>
+<td data-sort="35183">35,183</td>
+<td data-sort="38058">38,058</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1599340" data-cache="1688164273">
+<td>37.</td>
+<td class="applogo text-left"><a href="/app/1599340/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1599340/capsule_sm_120.jpg?t=1688164273" alt=""></a></td>
+<td><a href="/app/1599340/charts/">Lost Ark</a></td>
+<td data-sort="25903">25,903</td>
+<td data-sort="33577">33,577</td>
+<td data-sort="1325305">1,325,305</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1928420" data-cache="1687979920">
+<td>38.</td>
+<td class="applogo text-left"><a href="/app/1928420/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1928420/capsule_sm_120.jpg?t=1687979920" alt=""></a></td>
+<td><a href="/app/1928420/charts/">Farlight 84</a></td>
+<td data-sort="25612">25,612</td>
+<td data-sort="35881">35,881</td>
+<td data-sort="41396">41,396</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1868140" data-cache="1688141283">
+<td>39.</td>
+<td class="applogo text-left"><a href="/app/1868140/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1868140/capsule_sm_120.jpg?t=1688141283" alt=""></a></td>
+<td><a href="/app/1868140/charts/">DAVE THE DIVER</a></td>
+<td data-sort="25034">25,034</td>
+<td data-sort="34392">34,392</td>
+<td data-sort="34392">34,392</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="394360" data-cache="1686643350">
+<td>40.</td>
+<td class="applogo text-left"><a href="/app/394360/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/394360/capsule_sm_120.jpg?t=1686643350" alt=""></a></td>
+<td><a href="/app/394360/charts/">Hearts of Iron IV</a></td>
+<td data-sort="24677">24,677</td>
+<td data-sort="44155">44,155</td>
+<td data-sort="70997">70,997</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="322330" data-cache="1688123503">
+<td>41.</td>
+<td class="applogo text-left"><a href="/app/322330/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/322330/capsule_sm_120.jpg?t=1688123503" alt=""></a></td>
+<td><a href="/app/322330/charts/">Don't Starve Together</a></td>
+<td data-sort="24401">24,401</td>
+<td data-sort="56199">56,199</td>
+<td data-sort="115925">115,925</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="594650" data-cache="1688152773">
+<td>42.</td>
+<td class="applogo text-left"><a href="/app/594650/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/594650/capsule_sm_120.jpg?t=1688152773" alt=""></a></td>
+<td><a href="/app/594650/charts/">Hunt: Showdown</a></td>
+<td data-sort="24260">24,260</td>
+<td data-sort="40925">40,925</td>
+<td data-sort="45091">45,091</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1174180" data-cache="1687292406">
+<td>43.</td>
+<td class="applogo text-left"><a href="/app/1174180/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_sm_120.jpg?t=1687292406" alt=""></a></td>
+<td><a href="/app/1174180/charts/">Red Dead Redemption 2</a></td>
+<td data-sort="24159">24,159</td>
+<td data-sort="33701">33,701</td>
+<td data-sort="70914">70,914</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="218620" data-cache="1688131165">
+<td>44.</td>
+<td class="applogo text-left"><a href="/app/218620/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/218620/capsule_sm_120.jpg?t=1688131165" alt=""></a></td>
+<td><a href="/app/218620/charts/">PAYDAY 2</a></td>
+<td data-sort="23531">23,531</td>
+<td data-sort="43391">43,391</td>
+<td data-sort="247709">247,709</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="4000" data-cache="1688149694">
+<td>45.</td>
+<td class="applogo text-left"><a href="/app/4000/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/capsule_sm_120.jpg?t=1688149694" alt=""></a></td>
+<td><a href="/app/4000/charts/">Garry's Mod</a></td>
+<td data-sort="22616">22,616</td>
+<td data-sort="36923">36,923</td>
+<td data-sort="73863">73,863</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="548430" data-cache="1688169906">
+<td>46.</td>
+<td class="applogo text-left"><a href="/app/548430/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/548430/capsule_sm_120.jpg?t=1688169906" alt=""></a></td>
+<td><a href="/app/548430/charts/">Deep Rock Galactic</a></td>
+<td data-sort="22169">22,169</td>
+<td data-sort="30684">30,684</td>
+<td data-sort="46687">46,687</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="489830" data-cache="1688106819">
+<td>47.</td>
+<td class="applogo text-left"><a href="/app/489830/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/489830/capsule_sm_120.jpg?t=1688106819" alt=""></a></td>
+<td><a href="/app/489830/charts/">The Elder Scrolls V: Skyrim Special Edition</a></td>
+<td data-sort="21394">21,394</td>
+<td data-sort="25063">25,063</td>
+<td data-sort="69906">69,906</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1203220" data-cache="1688088679">
+<td>48.</td>
+<td class="applogo text-left"><a href="/app/1203220/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1203220/capsule_sm_120.jpg?t=1688088679" alt=""></a></td>
+<td><a href="/app/1203220/charts/">NARAKA: BLADEPOINT</a></td>
+<td data-sort="19984">19,984</td>
+<td data-sort="87331">87,331</td>
+<td data-sort="187468">187,468</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="294100" data-cache="1688151245">
+<td>49.</td>
+<td class="applogo text-left"><a href="/app/294100/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/294100/capsule_sm_120.jpg?t=1688151245" alt=""></a></td>
+<td><a href="/app/294100/charts/">RimWorld</a></td>
+<td data-sort="18813">18,813</td>
+<td data-sort="21993">21,993</td>
+<td data-sort="60789">60,789</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="377160" data-cache="1688093819">
+<td>50.</td>
+<td class="applogo text-left"><a href="/app/377160/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/377160/capsule_sm_120.jpg?t=1688093819" alt=""></a></td>
+<td><a href="/app/377160/charts/">Fallout 4</a></td>
+<td data-sort="18747">18,747</td>
+<td data-sort="21885">21,885</td>
+<td data-sort="472962">472,962</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1449850" data-cache="1688108539">
+<td>51.</td>
+<td class="applogo text-left"><a href="/app/1449850/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1449850/capsule_sm_120.jpg?t=1688108539" alt=""></a></td>
+<td><a href="/app/1449850/charts/">Yu-Gi-Oh! Master Duel</a></td>
+<td data-sort="18236">18,236</td>
+<td data-sort="26494">26,494</td>
+<td data-sort="262689">262,689</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1091500" data-cache="1687946424">
+<td>52.</td>
+<td class="applogo text-left"><a href="/app/1091500/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_sm_120.jpg?t=1687946424" alt=""></a></td>
+<td><a href="/app/1091500/charts/">Cyberpunk 2077</a></td>
+<td data-sort="18055">18,055</td>
+<td data-sort="23068">23,068</td>
+<td data-sort="1054388">1,054,388</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="255710" data-cache="1688130142">
+<td>53.</td>
+<td class="applogo text-left"><a href="/app/255710/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/255710/capsule_sm_120.jpg?t=1688130142" alt=""></a></td>
+<td><a href="/app/255710/charts/">Cities: Skylines</a></td>
+<td data-sort="17526">17,526</td>
+<td data-sort="25195">25,195</td>
+<td data-sort="60386">60,386</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="892970" data-cache="1687441212">
+<td>54.</td>
+<td class="applogo text-left"><a href="/app/892970/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/capsule_sm_120.jpg?t=1687441212" alt=""></a></td>
+<td><a href="/app/892970/charts/">Valheim</a></td>
+<td data-sort="16565">16,565</td>
+<td data-sort="23109">23,109</td>
+<td data-sort="502387">502,387</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="582660" data-cache="1688088834">
+<td>55.</td>
+<td class="applogo text-left"><a href="/app/582660/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/582660/capsule_sm_120.jpg?t=1688088834" alt=""></a></td>
+<td><a href="/app/582660/charts/">Black Desert</a></td>
+<td data-sort="16202">16,202</td>
+<td data-sort="20445">20,445</td>
+<td data-sort="60395">60,395</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="813780" data-cache="1688133223">
+<td>56.</td>
+<td class="applogo text-left"><a href="/app/813780/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/813780/capsule_sm_120.jpg?t=1688133223" alt=""></a></td>
+<td><a href="/app/813780/charts/">Age of Empires II: Definitive Edition</a></td>
+<td data-sort="16159">16,159</td>
+<td data-sort="19660">19,660</td>
+<td data-sort="38725">38,725</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="281990" data-cache="1687965494">
+<td>57.</td>
+<td class="applogo text-left"><a href="/app/281990/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/281990/capsule_sm_120.jpg?t=1687965494" alt=""></a></td>
+<td><a href="/app/281990/charts/">Stellaris</a></td>
+<td data-sort="16154">16,154</td>
+<td data-sort="19460">19,460</td>
+<td data-sort="68602">68,602</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1142710" data-cache="1688167170">
+<td>58.</td>
+<td class="applogo text-left"><a href="/app/1142710/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1142710/capsule_sm_120.jpg?t=1688167170" alt=""></a></td>
+<td><a href="/app/1142710/charts/">Total War: WARHAMMER III</a></td>
+<td data-sort="16081">16,081</td>
+<td data-sort="21744">21,744</td>
+<td data-sort="166754">166,754</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="291550" data-cache="1688117039">
+<td>59.</td>
+<td class="applogo text-left"><a href="/app/291550/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/291550/capsule_sm_120.jpg?t=1688117039" alt=""></a></td>
+<td><a href="/app/291550/charts/">Brawlhalla</a></td>
+<td data-sort="15155">15,155</td>
+<td data-sort="18687">18,687</td>
+<td data-sort="34816">34,816</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="261550" data-cache="1687522291">
+<td>60.</td>
+<td class="applogo text-left"><a href="/app/261550/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/261550/capsule_sm_120.jpg?t=1687522291" alt=""></a></td>
+<td><a href="/app/261550/charts/">Mount &amp; Blade II: Bannerlord</a></td>
+<td data-sort="15014">15,014</td>
+<td data-sort="24101">24,101</td>
+<td data-sort="248216">248,216</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="306130" data-cache="1686232968">
+<td>61.</td>
+<td class="applogo text-left"><a href="/app/306130/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/306130/capsule_sm_120.jpg?t=1686232968" alt=""></a></td>
+<td><a href="/app/306130/charts/">The Elder Scrolls Online</a></td>
+<td data-sort="14669">14,669</td>
+<td data-sort="19421">19,421</td>
+<td data-sort="49234">49,234</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1158310" data-cache="1687994303">
+<td>62.</td>
+<td class="applogo text-left"><a href="/app/1158310/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1158310/capsule_sm_120.jpg?t=1687994303" alt=""></a></td>
+<td><a href="/app/1158310/charts/">Crusader Kings III</a></td>
+<td data-sort="14058">14,058</td>
+<td data-sort="19737">19,737</td>
+<td data-sort="98872">98,872</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="8930" data-cache="1687887014">
+<td>63.</td>
+<td class="applogo text-left"><a href="/app/8930/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/8930/capsule_sm_120.jpg?t=1687887014" alt=""></a></td>
+<td><a href="/app/8930/charts/">Sid Meier's Civilization V</a></td>
+<td data-sort="14017">14,017</td>
+<td data-sort="18082">18,082</td>
+<td data-sort="91363">91,363</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="386360" data-cache="1687864118">
+<td>64.</td>
+<td class="applogo text-left"><a href="/app/386360/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/386360/capsule_sm_120.jpg?t=1687864118" alt=""></a></td>
+<td><a href="/app/386360/charts/">SMITE</a></td>
+<td data-sort="13768">13,768</td>
+<td data-sort="13768">13,768</td>
+<td data-sort="31169">31,169</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1551360" data-cache="1688124719">
+<td>65.</td>
+<td class="applogo text-left"><a href="/app/1551360/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/capsule_sm_120.jpg?t=1688124719" alt=""></a></td>
+<td><a href="/app/1551360/charts/">Forza Horizon 5</a></td>
+<td data-sort="13599">13,599</td>
+<td data-sort="26982">26,982</td>
+<td data-sort="81096">81,096</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="739630" data-cache="1688154060">
+<td>66.</td>
+<td class="applogo text-left"><a href="/app/739630/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/739630/capsule_sm_120.jpg?t=1688154060" alt=""></a></td>
+<td><a href="/app/739630/charts/">Phasmophobia</a></td>
+<td data-sort="13597">13,597</td>
+<td data-sort="18158">18,158</td>
+<td data-sort="112717">112,717</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="238960" data-cache="1685489915">
+<td>67.</td>
+<td class="applogo text-left"><a href="/app/238960/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/238960/capsule_sm_120.jpg?t=1685489915" alt=""></a></td>
+<td><a href="/app/238960/charts/">Path of Exile</a></td>
+<td data-sort="13381">13,381</td>
+<td data-sort="17957">17,957</td>
+<td data-sort="211637">211,637</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1942280" data-cache="1688071203">
+<td>68.</td>
+<td class="applogo text-left"><a href="/app/1942280/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1942280/capsule_sm_120.jpg?t=1688071203" alt=""></a></td>
+<td><a href="/app/1942280/charts/">Brotato</a></td>
+<td data-sort="13245">13,245</td>
+<td data-sort="23441">23,441</td>
+<td data-sort="32216">32,216</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="582010" data-cache="1687863051">
+<td>69.</td>
+<td class="applogo text-left"><a href="/app/582010/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/582010/capsule_sm_120.jpg?t=1687863051" alt=""></a></td>
+<td><a href="/app/582010/charts/">Monster Hunter: World</a></td>
+<td data-sort="12907">12,907</td>
+<td data-sort="27027">27,027</td>
+<td data-sort="334684">334,684</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="440900" data-cache="1688167098">
+<td>70.</td>
+<td class="applogo text-left"><a href="/app/440900/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/440900/capsule_sm_120.jpg?t=1688167098" alt=""></a></td>
+<td><a href="/app/440900/charts/">Conan Exiles</a></td>
+<td data-sort="12874">12,874</td>
+<td data-sort="18245">18,245</td>
+<td data-sort="53402">53,402</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="227300" data-cache="1688126743">
+<td>71.</td>
+<td class="applogo text-left"><a href="/app/227300/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/capsule_sm_120.jpg?t=1688126743" alt=""></a></td>
+<td><a href="/app/227300/charts/">Euro Truck Simulator 2</a></td>
+<td data-sort="12562">12,562</td>
+<td data-sort="35065">35,065</td>
+<td data-sort="61081">61,081</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="960090" data-cache="1688112025">
+<td>72.</td>
+<td class="applogo text-left"><a href="/app/960090/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/960090/capsule_sm_120.jpg?t=1688112025" alt=""></a></td>
+<td><a href="/app/960090/charts/">Bloons TD 6</a></td>
+<td data-sort="12278">12,278</td>
+<td data-sort="15210">15,210</td>
+<td data-sort="53943">53,943</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1454400" data-cache="1687747750">
+<td>73.</td>
+<td class="applogo text-left"><a href="/app/1454400/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/capsule_sm_120.jpg?t=1687747750" alt=""></a></td>
+<td><a href="/app/1454400/charts/">Cookie Clicker</a></td>
+<td data-sort="12047">12,047</td>
+<td data-sort="13993">13,993</td>
+<td data-sort="67867">67,867</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="250900" data-cache="1687888233">
+<td>74.</td>
+<td class="applogo text-left"><a href="/app/250900/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/250900/capsule_sm_120.jpg?t=1687888233" alt=""></a></td>
+<td><a href="/app/250900/charts/">The Binding of Isaac: Rebirth</a></td>
+<td data-sort="11998">11,998</td>
+<td data-sort="16751">16,751</td>
+<td data-sort="70701">70,701</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="632360" data-cache="1687824563">
+<td>75.</td>
+<td class="applogo text-left"><a href="/app/632360/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/632360/capsule_sm_120.jpg?t=1687824563" alt=""></a></td>
+<td><a href="/app/632360/charts/">Risk of Rain 2</a></td>
+<td data-sort="11968">11,968</td>
+<td data-sort="12108">12,108</td>
+<td data-sort="71548">71,548</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="629520" data-cache="1688163907">
+<td>76.</td>
+<td class="applogo text-left"><a href="/app/629520/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/629520/capsule_sm_120.jpg?t=1688163907" alt=""></a></td>
+<td><a href="/app/629520/charts/">Soundpad</a></td>
+<td data-sort="11907">11,907</td>
+<td data-sort="16862">16,862</td>
+<td data-sort="21920">21,920</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="107410" data-cache="1688043559">
+<td>77.</td>
+<td class="applogo text-left"><a href="/app/107410/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/107410/capsule_sm_120.jpg?t=1688043559" alt=""></a></td>
+<td><a href="/app/107410/charts/">Arma 3</a></td>
+<td data-sort="11856">11,856</td>
+<td data-sort="18757">18,757</td>
+<td data-sort="56679">56,679</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="236850" data-cache="1688051132">
+<td>78.</td>
+<td class="applogo text-left"><a href="/app/236850/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236850/capsule_sm_120.jpg?t=1688051132" alt=""></a></td>
+<td><a href="/app/236850/charts/">Europa Universalis IV</a></td>
+<td data-sort="11219">11,219</td>
+<td data-sort="18447">18,447</td>
+<td data-sort="48165">48,165</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="322170" data-cache="1685489810">
+<td>79.</td>
+<td class="applogo text-left"><a href="/app/322170/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/322170/capsule_sm_120.jpg?t=1685489810" alt=""></a></td>
+<td><a href="/app/322170/charts/">Geometry Dash</a></td>
+<td data-sort="11202">11,202</td>
+<td data-sort="15642">15,642</td>
+<td data-sort="16400">16,400</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1446780" data-cache="1687312188">
+<td>80.</td>
+<td class="applogo text-left"><a href="/app/1446780/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1446780/capsule_sm_120.jpg?t=1687312188" alt=""></a></td>
+<td><a href="/app/1446780/charts/">MONSTER HUNTER RISE</a></td>
+<td data-sort="10998">10,998</td>
+<td data-sort="19057">19,057</td>
+<td data-sort="231360">231,360</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1172620" data-cache="1686819804">
+<td>81.</td>
+<td class="applogo text-left"><a href="/app/1172620/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/capsule_sm_120.jpg?t=1686819804" alt=""></a></td>
+<td><a href="/app/1172620/charts/">Sea of Thieves</a></td>
+<td data-sort="10897">10,897</td>
+<td data-sort="16433">16,433</td>
+<td data-sort="66906">66,906</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1063730" data-cache="1688150282">
+<td>82.</td>
+<td class="applogo text-left"><a href="/app/1063730/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1063730/capsule_sm_120.jpg?t=1688150282" alt=""></a></td>
+<td><a href="/app/1063730/charts/">New World</a></td>
+<td data-sort="10711">10,711</td>
+<td data-sort="13879">13,879</td>
+<td data-sort="913634">913,634</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="480" data-cache="1688092431">
+<td>83.</td>
+<td class="applogo text-left"><a href="/app/480/charts/"><img src="/static/img/applogo.svg" alt=""></a></td>
+<td><a href="/app/480/charts/">Spacewar</a></td>
+<td data-sort="10410">10,410</td>
+<td data-sort="30082">30,082</td>
+<td data-sort="78193">78,193</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1248130" data-cache="1687937374">
+<td>84.</td>
+<td class="applogo text-left"><a href="/app/1248130/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1248130/capsule_sm_120.jpg?t=1687937374" alt=""></a></td>
+<td><a href="/app/1248130/charts/">Farming Simulator 22</a></td>
+<td data-sort="10185">10,185</td>
+<td data-sort="26820">26,820</td>
+<td data-sort="105636">105,636</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="518790" data-cache="1688105164">
+<td>85.</td>
+<td class="applogo text-left"><a href="/app/518790/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/518790/capsule_sm_120.jpg?t=1688105164" alt=""></a></td>
+<td><a href="/app/518790/charts/">theHunter: Call of the Wild™</a></td>
+<td data-sort="10014">10,014</td>
+<td data-sort="17531">17,531</td>
+<td data-sort="23612">23,612</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="526870" data-cache="1688164193">
+<td>86.</td>
+<td class="applogo text-left"><a href="/app/526870/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/526870/capsule_sm_120.jpg?t=1688164193" alt=""></a></td>
+<td><a href="/app/526870/charts/">Satisfactory</a></td>
+<td data-sort="9935">9,935</td>
+<td data-sort="14676">14,676</td>
+<td data-sort="34238">34,238</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="444090" data-cache="1687359020">
+<td>87.</td>
+<td class="applogo text-left"><a href="/app/444090/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/444090/capsule_sm_120.jpg?t=1687359020" alt=""></a></td>
+<td><a href="/app/444090/charts/">Paladins</a></td>
+<td data-sort="9789">9,789</td>
+<td data-sort="11465">11,465</td>
+<td data-sort="60743">60,743</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1326470" data-cache="1687975091">
+<td>88.</td>
+<td class="applogo text-left"><a href="/app/1326470/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/capsule_sm_120.jpg?t=1687975091" alt=""></a></td>
+<td><a href="/app/1326470/charts/">Sons Of The Forest</a></td>
+<td data-sort="9687">9,687</td>
+<td data-sort="12989">12,989</td>
+<td data-sort="414257">414,257</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="311210" data-cache="1685489823">
+<td>89.</td>
+<td class="applogo text-left"><a href="/app/311210/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/311210/capsule_sm_120.jpg?t=1685489823" alt=""></a></td>
+<td><a href="/app/311210/charts/">Call of Duty: Black Ops III</a></td>
+<td data-sort="9521">9,521</td>
+<td data-sort="9533">9,533</td>
+<td data-sort="63681">63,681</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="292030" data-cache="1687959509">
+<td>90.</td>
+<td class="applogo text-left"><a href="/app/292030/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_sm_120.jpg?t=1687959509" alt=""></a></td>
+<td><a href="/app/292030/charts/">The Witcher 3: Wild Hunt</a></td>
+<td data-sort="9513">9,513</td>
+<td data-sort="19134">19,134</td>
+<td data-sort="103329">103,329</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="1973530" data-cache="1688135429">
+<td>91.</td>
+<td class="applogo text-left"><a href="/app/1973530/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1973530/capsule_sm_120.jpg?t=1688135429" alt=""></a></td>
+<td><a href="/app/1973530/charts/">Limbus Company</a></td>
+<td data-sort="9488">9,488</td>
+<td data-sort="13748">13,748</td>
+<td data-sort="30225">30,225</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="648800" data-cache="1685489498">
+<td>92.</td>
+<td class="applogo text-left"><a href="/app/648800/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/648800/capsule_sm_120.jpg?t=1685489498" alt=""></a></td>
+<td><a href="/app/648800/charts/">Raft</a></td>
+<td data-sort="9435">9,435</td>
+<td data-sort="16185">16,185</td>
+<td data-sort="101096">101,096</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="457140" data-cache="1688176801">
+<td>93.</td>
+<td class="applogo text-left"><a href="/app/457140/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/457140/capsule_sm_120.jpg?t=1688176801" alt=""></a></td>
+<td><a href="/app/457140/charts/">Oxygen Not Included</a></td>
+<td data-sort="9248">9,248</td>
+<td data-sort="13470">13,470</td>
+<td data-sort="27486">27,486</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="761890" data-cache="1687169983">
+<td>94.</td>
+<td class="applogo text-left"><a href="/app/761890/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/761890/capsule_sm_120.jpg?t=1687169983" alt=""></a></td>
+<td><a href="/app/761890/charts/">Albion Online</a></td>
+<td data-sort="9219">9,219</td>
+<td data-sort="15676">15,676</td>
+<td data-sort="26148">26,148</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="646570" data-cache="1685489499">
+<td>95.</td>
+<td class="applogo text-left"><a href="/app/646570/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/646570/capsule_sm_120.jpg?t=1685489499" alt=""></a></td>
+<td><a href="/app/646570/charts/">Slay the Spire</a></td>
+<td data-sort="9202">9,202</td>
+<td data-sort="11872">11,872</td>
+<td data-sort="33086">33,086</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="990080" data-cache="1687511659">
+<td>96.</td>
+<td class="applogo text-left"><a href="/app/990080/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_sm_120.jpg?t=1687511659" alt=""></a></td>
+<td><a href="/app/990080/charts/">Hogwarts Legacy</a></td>
+<td data-sort="9127">9,127</td>
+<td data-sort="12594">12,594</td>
+<td data-sort="879308">879,308</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="393380" data-cache="1688094527">
+<td>97.</td>
+<td class="applogo text-left"><a href="/app/393380/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/393380/capsule_sm_120.jpg?t=1688094527" alt=""></a></td>
+<td><a href="/app/393380/charts/">Squad</a></td>
+<td data-sort="8968">8,968</td>
+<td data-sort="16102">16,102</td>
+<td data-sort="26104">26,104</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="427520" data-cache="1687973595">
+<td>98.</td>
+<td class="applogo text-left"><a href="/app/427520/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/capsule_sm_120.jpg?t=1687973595" alt=""></a></td>
+<td><a href="/app/427520/charts/">Factorio</a></td>
+<td data-sort="8854">8,854</td>
+<td data-sort="12435">12,435</td>
+<td data-sort="34700">34,700</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="284160" data-cache="1688140625">
+<td>99.</td>
+<td class="applogo text-left"><a href="/app/284160/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/284160/capsule_sm_120.jpg?t=1688140625" alt=""></a></td>
+<td><a href="/app/284160/charts/">BeamNG.drive</a></td>
+<td data-sort="8787">8,787</td>
+<td data-sort="14200">14,200</td>
+<td data-sort="20691">20,691</td>
+<td class="add">+</td>
+</tr><tr class="app" data-appid="513710" data-cache="1688100510">
+<td>100.</td>
+<td class="applogo text-left"><a href="/app/513710/charts/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/513710/capsule_sm_120.jpg?t=1688100510" alt=""></a></td>
+<td><a href="/app/513710/charts/">SCUM</a></td>
+<td data-sort="8728">8,728</td>
+<td data-sort="18895">18,895</td>
+<td data-sort="68322">68,322</td>
+<td class="add">+</td>
+</tr></tbody>
+</table></div><div class="dataTable_bottom"><div class="dataTables_info" id="table-apps_info" role="status" aria-live="polite">Showing 1 to 100 of 6,449 entries</div><div class="dataTables_paginate paging_simple_numbers" id="table-apps_paginate"><nav class="pagination" aria-label="Pagination"><a class="paginate_button previous disabled" id="table-apps_previous" href="#" aria-controls="table-apps" data-dt-idx="0" tabindex="0">Previous</a><a class="paginate_button active" href="#" aria-controls="table-apps" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " href="#" aria-controls="table-apps" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " href="#" aria-controls="table-apps" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " href="#" aria-controls="table-apps" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " href="#" aria-controls="table-apps" data-dt-idx="5" tabindex="0">5</a><a class="paginate_button disabled" id="table-apps_ellipsis" href="#" aria-controls="table-apps" data-dt-idx="6" tabindex="0">…</a><a class="paginate_button " href="#" aria-controls="table-apps" data-dt-idx="7" tabindex="0">65</a><a class="paginate_button next" id="table-apps_next" href="#" aria-controls="table-apps" data-dt-idx="8" tabindex="0">Next</a></nav></div></div></div>
+</div>
+</div>
+<script nonce="" integrity="sha512-fbmBgEnsXmigTMq29HBaImULNEGVNwRK+d1jTHIYCGgUM2B9zcleLCMlUSy1wVbjZ0groX5Bs/sm0NktsIUi7g==" src="/static/js/vendor/jquery.js?v=7db9818049ec5e68"></script><script nonce="" integrity="sha512-m35DtKcmiZ8nJJdseTSXHX3syhhOqlzpON5yCZKT96mcy7j8SO8XQrRpINF5LZ75YtKoddcv3jkM+HI/GHduNQ==" src="/static/js/vendor/dataTables.js?v=9b7e43b4a726899f"></script><script nonce="" integrity="sha512-3EjGWKl2XsfiUzmKABCANJaTwCXMD1iG7e/z4CBaHZJpnLWBpCf++Z5IS0DCfdm2qnOPokPafIBD9QAY8DE/pQ==" src="/static/js/graphs.js?v=dc48c658a9765ec7" defer=""></script><script nonce="" integrity="sha512-BAZOulHIJdXzjI2vx2SXnqjo+5UEPlhHj3uonH79FOzRu5qyzVRqhUW61DvNppbihGkQVf8xuFu5G30UI1l4wQ==" src="/static/js/searchable-select.js?v=04064eba51c825d5" defer=""></script></div>
+<a href="/donate/" class="armored-headcrab">
+<span>SteamDB has been running ad-free since 2012.<br><b>Donate or contribute.</b></span>
+<svg width="32" height="32" viewBox="0 0 16 16" class="octicon octicon-arrow-right" aria-hidden="true"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06Z"></path></svg>
+</a>
+<div class="footer" role="contentinfo" id="steamdb-org" itemscope="" itemtype="http://schema.org/Organization" itemprop="publisher">
+<meta itemprop="name" content="SteamDB">
+<meta itemprop="url" content="https://steamdb.info/">
+<meta itemprop="logo" content="https://steamdb.info/static/logos/512px.png">
+<div class="footer-container">
+<div class="footer-menu hide-small">
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-info" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> About</li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/discord/">Discord</a></li>
+<li><a href="/faq/">FAQ &amp; help</a></li>
+<li><a href="/donate/">Donate &amp; contribute</a></li>
+<li><a href="/extension/">Browser extension</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-search" aria-hidden="true"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg> Tools</li>
+<li><a href="/sales/">Sales</a></li>
+<li><a href="/charts/">Charts</a></li>
+<li><a href="/calculator/">Calculator</a></li>
+<li><a href="/patchnotes/">Patch notes</a></li>
+<li><a href="/search/">Search</a></li>
+<li><a href="/instantsearch/">Instant search</a></li>
+<li><a href="/sales/history/">When is next sale?</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-sync" aria-hidden="true"><path d="M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z"></path></svg> Tracking</li>
+<li><a href="/apps/">Apps</a></li>
+<li><a href="/subs/">Packages</a></li>
+<li><a href="/bundles/">Bundles</a></li>
+<li><a href="/history/">History</a></li>
+<li><a href="/pricechanges/">Price changes</a></li>
+<li><a href="/upcoming/free/">Free promotions</a></li>
+<li><a href="/tech/">Technologies &amp; built with</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-database" aria-hidden="true"><path d="M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z"></path></svg> Database</li>
+<li><a href="/tags/">User tags</a></li>
+<li><a href="/upcoming/">Upcoming releases</a></li>
+<li><a href="/upcoming/mostfollowed/">Most followed upcoming</a></li>
+<li><a href="/calendar/">Release calendar</a></li>
+<li><a href="/stats/releases/">Game releases by year</a></li>
+<li><a href="/badges/">Profile badges</a></li>
+<li><a href="/developers/">Developers</a></li>
+<li><a href="/publishers/">Publishers</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-number" aria-hidden="true"><path d="M9 4.75A.75.75 0 0 1 9.75 4h4a.75.75 0 0 1 .53 1.28l-1.89 1.892c.312.076.604.18.867.319.742.391 1.244 1.063 1.244 2.005 0 .653-.231 1.208-.629 1.627-.386.408-.894.653-1.408.777-1.01.243-2.225.063-3.124-.527a.751.751 0 0 1 .822-1.254c.534.35 1.32.474 1.951.322.306-.073.53-.201.67-.349.129-.136.218-.32.218-.596 0-.308-.123-.509-.444-.678-.373-.197-.98-.318-1.806-.318a.75.75 0 0 1-.53-1.28l1.72-1.72H9.75A.75.75 0 0 1 9 4.75Zm-3.587 5.763c-.35-.05-.77.113-.983.572a.75.75 0 1 1-1.36-.632c.508-1.094 1.589-1.565 2.558-1.425 1 .145 1.872.945 1.872 2.222 0 1.433-1.088 2.192-1.79 2.681-.308.216-.571.397-.772.573H7a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75c0-.69.3-1.211.67-1.61.348-.372.8-.676 1.15-.92.8-.56 1.18-.904 1.18-1.474 0-.473-.267-.69-.587-.737ZM5.604.089A.75.75 0 0 1 6 .75v4.77h.711a.75.75 0 0 1 0 1.5H3.759a.75.75 0 0 1 0-1.5H4.5V2.15l-.334.223a.75.75 0 0 1-.832-1.248l1.5-1a.75.75 0 0 1 .77-.037Z"></path></svg> Rankings</li>
+<li><a href="/stats/gameratings/">Top rated games</a></li>
+<li><a href="/badge/13/">Top game owners</a></li>
+<li><a href="/stats/toplevels/">Top profile levels</a></li>
+<li><a href="/stats/globaltopsellers/">Top selling games</a></li>
+<li><a href="/topsellers/">Top selling games last week</a></li>
+<li><a href="/stats/mostfollowed/">Most followed games</a></li>
+<li><a href="/stats/mostwished/">Most wishlisted games</a></li>
+</ul>
+<ul>
+<li class="navigation-heading"><svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-person" aria-hidden="true"><path d="M10.561 8.073a6.005 6.005 0 0 1 3.432 5.142.75.75 0 1 1-1.498.07 4.5 4.5 0 0 0-8.99 0 .75.75 0 0 1-1.498-.07 6.004 6.004 0 0 1 3.431-5.142 3.999 3.999 0 1 1 5.123 0ZM10.5 5a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"></path></svg> Account</li>
+<li><a href="/login/?page=charts" rel="nofollow">Sign in via Steam</a></li>
+<li><a href="/freepackages/">Free packages</a></li>
+<li>&nbsp;</li>
+<li><a href="https://steamstat.us/">Steam Status</a></li>
+<li><a href="https://steamapi.xpaw.me/">Steam Web API</a></li>
+</ul>
+</div>
+<div class="footer-copyright">
+<div>
+<p>
+SteamDB is a hobby project and is not affiliated with Valve or Steam. All times on the site are UTC.
+<a href="/faq/#what-steamdb-is-not">Fair use disclaimer</a> ·
+<a href="/faq/#privacy">Privacy</a>
+</p>
+<p>Steam and the Steam logo are trademarks of Valve Corporation. All other trademarks are property of their respective owners.</p>
+</div>
+<div class="footer-buttons">
+<a class="btn-social tooltipped tooltipped-n" aria-label="Discord" href="/discord/" rel="nofollow">
+<svg viewBox="0 0 16 16" width="24" height="24" class="btn-social-icon" aria-hidden="true">
+<path d="M13.54 2.9a13.2 13.2 0 00-3.25-1c-.02 0-.04 0-.05.02-.15.25-.3.58-.41.83a12.18 12.18 0 00-3.66 0 8.4 8.4 0 00-.41-.83.05.05 0 00-.05-.02 13.16 13.16 0 00-3.28 1.03 13.5 13.5 0 00-2.34 9.14c1.37 1 2.7 1.61 4 2.02.01 0 .04 0 .05-.02.3-.42.58-.86.82-1.33a.05.05 0 00-.03-.07 8.76 8.76 0 01-1.25-.6.05.05 0 010-.08l.24-.2a.05.05 0 01.05 0 9.46 9.46 0 008.05 0h.05l.25.2c.03.02.02.07 0 .09-.4.23-.82.43-1.26.59a.05.05 0 00-.02.07c.24.47.51.91.81 1.33.02.02.04.03.06.02a13.23 13.23 0 004.02-2.06 13.41 13.41 0 00-2.39-9.12zm-8.2 7.31c-.78 0-1.43-.72-1.43-1.6 0-.9.64-1.62 1.44-1.62.8 0 1.45.73 1.43 1.61 0 .89-.63 1.61-1.43 1.61zm5.32 0c-.79 0-1.43-.72-1.43-1.6 0-.9.63-1.62 1.43-1.62.81 0 1.45.73 1.44 1.61 0 .89-.63 1.61-1.44 1.61z"></path>
+</svg>
+</a>
+<a class="btn-social tooltipped tooltipped-n" aria-label="Twitter" href="https://twitter.com/intent/follow?screen_name=SteamDB" itemprop="sameAs">
+<svg viewBox="0 0 32 32" width="24" height="24" class="btn-social-icon" aria-hidden="true">
+<path d="M31.993 6.077c-1.177.523-2.44.876-3.77 1.033 1.355-.812 2.396-2.098 2.887-3.63-1.27.75-2.673 1.3-4.168 1.592C25.744 3.797 24.038 3 22.15 3c-3.626 0-6.563 2.938-6.563 6.563 0 .514.057 1.016.17 1.496C10.3 10.784 5.464 8.17 2.226 4.2c-.564.97-.888 2.098-.888 3.3 0 2.28 1.158 4.287 2.918 5.465-1.075-.035-2.087-.33-2.972-.82v.08c0 3.182 2.26 5.835 5.264 6.438-.55.15-1.13.23-1.73.23-.423 0-.833-.04-1.233-.117.834 2.606 3.26 4.504 6.13 4.558-2.245 1.76-5.075 2.81-8.15 2.81-.53 0-1.053-.03-1.566-.09C2.906 27.913 6.356 29 10.063 29c12.072 0 18.675-10 18.675-18.675 0-.284-.008-.568-.02-.85 1.283-.925 2.395-2.08 3.276-3.398z"></path>
+</svg>
+</a>
+<a class="btn-social tooltipped tooltipped-n" aria-label="Mastodon" href="https://infosec.exchange/@SteamDB" itemprop="sameAs" rel="me">
+<svg viewBox="0 0 38 38" width="24" height="24" class="btn-social-icon" aria-hidden="true">
+<path d="M36.4 8.4c-.6-4-4.1-7.2-8.3-7.8a67 67 0 0 0-9.6-.5c-6.3 0-7.7.4-8.4.5C6.1 1.2 2.3 4 1.4 8c-.4 2-.5 4.2-.4 6.2.1 3 .1 5.8.4 8.7.2 2 .5 3.9 1 5.8.8 3.4 4.3 6.3 7.7 7.5a21.2 21.2 0 0 0 12.6.3c1-.3 2-.6 2.8-1.2v-2.9a32 32 0 0 1-7.4.8c-4.3 0-5.5-2-5.8-2.8a8.6 8.6 0 0 1-.5-2.3h.1c2.4.5 4.8.8 7.3.8h1.7c2.5 0 5-.2 7.5-.7h.2c3.8-.7 7.4-3 7.8-8.7V17c0-.8.3-5.7 0-8.6Zm-5.9 14.2h-4V13c0-2-.8-3-2.6-3-2 0-2.9 1.1-2.9 3.6v5.3h-4v-5.3c0-2.5-1-3.7-2.9-3.7-1.7 0-2.6 1-2.6 3v9.7h-4v-10a7 7 0 0 1 1.6-4.8C10 6.6 11.6 6 13.4 6c2 0 3.6.8 4.6 2.4l1 1.6 1-1.6C21 6.8 22.6 6 24.7 6c1.7 0 3.2.6 4.2 1.8a7 7 0 0 1 1.6 4.9v10Z"></path>
+</svg>
+</a>
+<a class="btn-social tooltipped tooltipped-n" aria-label="GitHub" href="https://github.com/SteamDatabase" itemprop="sameAs">
+<svg viewBox="0 0 16 16" width="24" height="24" class="btn-social-icon" aria-hidden="true">
+<path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+</a>
+<a class="btn-social tooltipped tooltipped-n" aria-label="Steam Group" href="https://steamcommunity.com/groups/steamdb" itemprop="sameAs">
+<svg viewBox="0 0 16 16" width="24" height="24" class="btn-social-icon" aria-hidden="true">
+<path d="M8 0a8 8 0 00-8 7.47c.07.1.13.21.18.32l4.15 1.67a2.2 2.2 0 011.31-.36l1.97-2.8v-.04c0-1.65 1.37-3 3.05-3a3.03 3.03 0 013.05 3 3.03 3.03 0 01-3.12 3l-2.81 1.97c0 .3-.05.6-.17.9a2.25 2.25 0 01-4.23-.37L.4 10.56A8.01 8.01 0 108 0zm2.66 4.27c-1.12 0-2.03.9-2.03 2s.91 1.99 2.03 1.99c1.12 0 2.03-.9 2.03-2s-.9-2-2.03-2zm0 .5c.85 0 1.53.66 1.53 1.49s-.68 1.5-1.53 1.5c-.84 0-1.52-.67-1.52-1.5s.68-1.5 1.52-1.5zM5.57 9.6c-.22 0-.43.04-.62.11l1.02.42c.65.26.95.99.68 1.62-.27.63-1 .93-1.65.67l-1-.4a1.73 1.73 0 003.13-.08c.18-.42.18-.88.01-1.3A1.69 1.69 0 005.57 9.6z"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="js-notifications">
+<noscript>
+<div class="toast-header"><b>Enable JavaScript</b></div>
+<div class="toast-body">For SteamDB to function correctly, JavaScript should be enabled.</div>
+</noscript>
+</div>
+<div id="js-hover" hidden=""></div>
+<div id="js-screenshots">
+<div class="screenshot-header">
+<span>
+<a href="#" class="screenshot-name"></a>
+</span>
+<span>
+<button type="button" class="btn btn-sm btn-primary screenshot-prev">← Prev</button>
+<span class="screenshot-index"></span>
+<button type="button" class="btn btn-sm btn-primary screenshot-next">Next →</button>
+</span>
+<span>
+<a href="#" target="_blank" rel="noopener" class="btn btn-sm screenshot-open">Open link</a>
+<button type="button" class="btn btn-sm btn-danger screenshot-close">Close<span class="hide-small"> (Esc)</span></button>
+</span>
+</div>
+<div class="screenshot-contain"></div>
+</div>
+<script nonce="" integrity="sha512-54Asi0fh+BQyjP2G5y135RRYrHtTIQJ8JG8I2hH/RB/PR76OwQKfCMave0EwftDgsk8ol/qmj/Q2phGg8kxf9A==" src="/static/js/footer.js?v=e7802c8b47e1f814" defer=""></script><script nonce="" integrity="sha512-1+XcXm39zpcG0SV2ZK0gAUS/lQj0qkrGioP7PkHvvZ/3d01v/OIp1Gk9xq2KMKhe4erOi7HI8XKNJ7R66p7bYQ==" src="/static/js/hover.js?v=d7e5dc5e6dfdce97" defer=""></script><script nonce="" integrity="sha512-1ybGGSXu45WDVLpQVF82WqtnS2bxLx/FPHJTns9Vs3s6fB+Z9IRphuQHYGo6iv2bFbVXVRuQ2xNJLdKPOMw+bw==" src="/static/js/toast.js?v=d726c61925eee395" defer=""></script>
+<script nonce="">(function(){var js = "window['__CF$cv$params']={r:'7dfb46dd99e227e5',m:'1ygZgrNAYXNz68Lflj0d.PBuTtgq6kN0SsmHKkzdLPk-1688179149-0-AbpLgPHQipMQCly+ecCO5qwwH6aChiQFWnXj0OQAf/n9'};_cpo=document.createElement('script');_cpo.nonce='MbZS/4gls6flH+NODhC1zrT8zb0=',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = 'MbZS/4gls6flH+NODhC1zrT8zb0=';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
