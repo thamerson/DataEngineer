@@ -24,7 +24,7 @@ def obterConteudo(url):
     
     return conteudo
 
-
+#conteudo=obterConteudo('https://steamdb.info/charts/')
 def salvarArquivo(conteudo, nome):
     with open(nome,'w',encoding='UTF-8') as arquivo:
         arquivo.write(conteudo)
