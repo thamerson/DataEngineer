@@ -16,7 +16,7 @@ dados_tabela = []
 for tabela in tabelas:
     linhas = tabela.find_all('tr')
 
-    
+
     cabecalhos = linhas[0].find_all('th')
     colunas = [cabecalho.get_text().strip() for cabecalho in cabecalhos]
     colunas = colunas[:1] + colunas[2:6]
