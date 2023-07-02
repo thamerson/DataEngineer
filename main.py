@@ -34,7 +34,7 @@ salvarArquivo(obterConteudo('https://steamdb.info/charts/'),'charts')
 
 def lerArquivo(nome):
     with open(nome,'r',encoding='UTF-8') as arquivo:
-        conteudo= arquivo.read()
+        conteudo = arquivo.read()
 
     return conteudo
 

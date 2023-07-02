@@ -19,11 +19,8 @@ for tabela in tabelas:
     
     cabecalhos = linhas[0].find_all('th')
     colunas = [cabecalho.get_text().strip() for cabecalho in cabecalhos]
-
-    
     colunas = colunas[:1] + colunas[2:6]
 
-   
     for linha in linhas[1:]:
         dados_linha = {}  
         
@@ -34,7 +31,6 @@ for tabela in tabelas:
         for i, valor_coluna in enumerate(valores_colunas):
             dados_linha[colunas[i]] = valor_coluna
 
-       
         dados_tabela.append(dados_linha)
 
 DadosCsv = 'dados_tabela.csv'
@@ -44,4 +40,4 @@ with open(DadosCsv, 'w', newline='', encoding='UTF-8') as arquivo_csv:
     writer.writeheader()
     writer.writerows(dados_tabela)
 
-print(f"Dados da tabela salvos no arquivo: {DadosCsv}")
+print(f"Dados da extração: {DadosCsv}")
