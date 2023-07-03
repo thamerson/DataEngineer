@@ -1,4 +1,4 @@
-# Bem-vindo ao Repositório de Resolução do Caso Técnico
+# Bem-vindo ao Repositório de Resolução do Case Técnico
 
 Este repositório contém a minha solução para o caso técnico solicitado. A solução foi dividida em vários arquivos, cada um responsável por uma etapa específica do processo.
 
