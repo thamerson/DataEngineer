@@ -19,15 +19,12 @@ def obterConteudo(url):
 
     navegador.get(url)
     
-    # Imitando um comportamento humano com pausa aleatória
     time.sleep(random.randint(10, 20))
     
     conteudo = navegador.find_element(By.XPATH, '/html/body').get_attribute('innerHTML')
 
     
     return conteudo
-
-# Restante do código ...
 
 def main():
     conteudo = obterConteudo('https://steamdb.info/sales/')
