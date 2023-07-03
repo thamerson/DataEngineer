@@ -1,6 +1,6 @@
 # Bem-vindo ao Repositório de Resolução do Case Técnico
 
-Este repositório contém a minha solução para o caso técnico solicitado. A solução foi dividida em vários arquivos, cada um responsável por uma etapa específica do processo.
+Este repositório contém a minha solução para o caso técnico solicitado. A solução foi dividida em 3 arquivos, cada um responsável por uma etapa específica do processo.
 
 Se tiver dúvidas, sinta-se à vontade para abrir um issue aqui no GitHub ou entrar em contato por e-mail.
 
